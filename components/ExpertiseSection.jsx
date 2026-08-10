@@ -118,7 +118,7 @@ export default function ExpertiseSection() {
         </li>
       </ul>
 
-      <div className="container mt-12 pb-[100px] text-center max-w-[800px] mx-auto">
+      <div className="container mt-12 text-center max-w-[800px] mx-auto" style={{ paddingBottom: "80px" }}>
         <h3 className="h3 mb-16">We would rather build fewer assets well.</h3>
         <br />
         <h2 className="h2 mb-6">Transparent Alignment</h2>

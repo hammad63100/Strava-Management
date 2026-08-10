@@ -113,11 +113,11 @@ export default function ProcessSection() {
   ];
 
   return (
-    <div id="process" className="bg-[#7B7762] text-black">
+    <div id="process" className="bg-[#7B7762] text-black pt-6 lg:pt-10">
       {/* Header section with image */}
-      <div className="dimensions container pt-[40px] lg:pt-[60px] grid lg:gap-[30px] lg:grid-cols-12 items-center">
+      <div className="dimensions container pt-[20px] lg:pt-[30px] grid lg:gap-[30px] lg:grid-cols-12 items-center">
         <img
-          className="rounded-[15px] lg:rounded-[20px] lg:col-span-7 object-cover aspect-video"
+          className="rounded-[15px] lg:rounded-[20px] lg:col-span-7 object-cover aspect-video mt-2 lg:mt-4"
           src="https://images.unsplash.com/photo-1542744094-3a31f272c490?w=1600&q=80"
           alt="The Process"
         />
