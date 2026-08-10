@@ -1,0 +1,215 @@
+9jjIAOT0wKS8bfdykRXeGHLKSOuf2pKE7goBDquDxwfhTy7RkIPwrtBP880AOQbXhDknDE4ck1wl8xSu8Z5BOOTx+lMtIkoKkSKxGMg4PvNNEpC4UZPGOT+L3mgZIsgwu4l38eau3Hcbh2rqYtsy3MJZMqJFOOgxuHpXVLAAwAEOQCD7v5U4AAcDoD9aRESxQMeG/rXe0H5ODnqKBC+FDdcA5AApeF3HC5fqeO3rTDyhvwg56c/CpGiWsmrXxtll8tY13O55OM44Hr86mc1BcmNJydI8XPmLCkTyzNwiKMlvlV5b6LHZRi78QyxxIP/p1fv8A4iO/uFI1HVLbwzF5GnWpM8qE+dI2WYZx7R69ewwPfQLq+r3V/OZbqQu44HYKPQDoK5VOefcdR/2atRx97YW634yYxfddIUWtsBgEDDfL0/egm6vASxJYk9Sar57ojjHPqKr7idj045raEI41UTOU3LsnXOoHsc9hk9KYtdbltZMqiv7m7VVsxYmvFTdzmqZNltHr9xHffe4mlinDBgY3wB7senupnWNSbVbzz/JWH2cYBznnP86iLED8TUmKAHjAoEM25eKWORQNyMCARwauZ9Vu7qz+6pbxxRk5Yq5y49D7qZhtw3fgVY21sHY4xkLnNFDPNIu9Rt4Ws0MSWcjK7oMseD2z0oq0+4OAP5VWW9mhKHoSMg/pVzZ26KiP2zgYq0gLW2mfb7Zyc4+dS1fIO6M57AfvUGBDEoCsSpOMH19amhmRELbWwMDAA/z1qhj6tvkAD49FHU499O+XlBxiQtkZHQ9ximIhuCSj/ecdfd1p54xH5bHO0k4APcf5NMCRuCBlDSKvADkdsdf/AJpuK4ke7eMhgqIrksBhsk8A/L9aWrgxJKVB3oTt6YOKbkcLg+0GwOh45GaAOBIZ227QTkcjIrwyMnD+0hAyVGfnikCRHMiMp3ZxycjPI/lSQ+4hclcANz7XfHT50gFWrOL21LyRJiRQpOf7w69PpXUuwJlurNQQuZAzEL/i7e+upMD/2Q=="
+                    />
+                  </div>
+                </section>
+                <div className="border-b container h3 text-center grid gap-[10px] lg:gap-[25px] mt-20 lg:mt-[40px] mb-[25px] lg:mb-[35px] border-black pb-[100px] px-[25px]">
+                  <p>
+                    Rebellion moves brands <br className="hidden lg:block" />
+                    in the right direction, <br className="hidden lg:block" />
+                    aligning them with the spirit{" "}
+                    <br className="hidden lg:block" />
+                    of the times and their audiences.
+                  </p>
+                </div>
+                <section className="Approche container my-[25px] grid gap-[15px] lg:gap-x-[60px] lg:grid-cols-2 lg:grid-rows-4 lg:grid-rows-none lg:pb-[30px]">
+                  <h2 className="h2">Approach</h2>
+                  <h3 className="h4 lg:self-end lg:col-start-2 lg:row-start-1 lg:max-w-[40vw]">
+                    Putting brands in motion means being able to capture and
+                    anticipate what surrounds us.
+                    <br />
+                    <br />
+                    We have developed a listening methodology based on the
+                    real-time analysis of data from your communities.
+                  </h3>
+                  <p className="h4 max-w-[500px] lg:col-start-2 lg:row-start-3">
+                    From around the corner to across the globe, our eyes and
+                    ears are tuned in wherever your communities are.
+                  </p>
+                </section>
+                <div className="Expertises">
+                  <ul className="grid lg:grid-cols-5 lg:gap-[10px] container pt-[25px] pb-[20px] lg:pb-[35px]">
+                    <li className="relative md:px-[15px] lg:px-[25px] lg:py-[20px] border-t-[1px] lg:border-[1px] border-black lg:rounded-[20px]">
+                      <svg
+                        className="hidden lg:block absolute left-0 top-0 w-full h-full"
+                        preserveAspectRatio="none"
+                        viewBox="0 0 260 419"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M237.24 390L231.083 390M229 392.085L229 398.246"
+                          stroke="#1D1D1D"
+                          strokeMiterlimit="10"
+                        />
+                        <path
+                          d="M22 390L28.1571 390M30.2402 392.085L30.2402 398.246"
+                          stroke="#1D1D1D"
+                          strokeMiterlimit="10"
+                        />
+                        <path
+                          d="M237.24 29.2461L231.083 29.2461M229 27.1615L229 21"
+                          stroke="#1D1D1D"
+                          strokeMiterlimit="10"
+                        />
+                        <path
+                          d="M22 29.2461L28.1571 29.2461M30.2402 27.1615L30.2402 21"
+                          stroke="#1D1D1D"
+                          strokeMiterlimit="10"
+                        />
+                      </svg>
+                      <h3 className="h3 lg:text-[20px] xl:text-[30px] lg:h-[40px] mt-4 lg:mt-12">
+                        Brand strategy
+                      </h3>
+                      <div className="h5 lg:text-[11px] xl:text-[16px] my-4 xl:mt-24 lg:lg-5 xl:mb-12">
+                        <ul>
+                          <li className="lg:border-b-[1px] last:border-0 border-black lg:py-1">
+                            Brand platform
+                          </li>
+                          <li className="lg:border-b-[1px] last:border-0 border-black lg:py-1">
+                            (re)Positioning
+                          </li>
+                          <li className="lg:border-b-[1px] last:border-0 border-black lg:py-1">
+                            Branding
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li className="relative md:px-[15px] lg:px-[25px] lg:py-[20px] border-t-[1px] lg:border-[1px] border-black lg:rounded-[20px]">
+                      <svg
+                        className="hidden lg:block absolute left-0 top-0 w-full h-full"
+                        preserveAspectRatio="none"
+                        viewBox="0 0 260 419"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M237.24 390L231.083 390M229 392.085L229 398.246"
+                          stroke="#1D1D1D"
+                          strokeMiterlimit="10"
+                        />
+                        <path
+                          d="M22 390L28.1571 390M30.2402 392.085L30.2402 398.246"
+                          stroke="#1D1D1D"
+                          strokeMiterlimit="10"
+                        />
+                        <path
+                          d="M237.24 29.2461L231.083 29.2461M229 27.1615L229 21"
+                          stroke="#1D1D1D"
+                          strokeMiterlimit="10"
+                        />
+                        <path
+                          d="M22 29.2461L28.1571 29.2461M30.2402 27.1615L30.2402 21"
+                          stroke="#1D1D1D"
+                          strokeMiterlimit="10"
+                        />
+                      </svg>
+                      <h3 className="h3 lg:text-[20px] xl:text-[30px] lg:h-[40px] mt-4 lg:mt-12">
+                        Trends office
+                      </h3>
+                      <div className="h5 lg:text-[11px] xl:text-[16px] my-4 xl:mt-24 lg:lg-5 xl:mb-12">
+                        <ul>
+                          <li className="lg:border-b-[1px] last:border-0 border-black lg:py-1">
+                            Analysis
+                          </li>
+                          <li className="lg:border-b-[1px] last:border-0 border-black lg:py-1">
+                            Prospective
+                          </li>
+                          <li className="lg:border-b-[1px] last:border-0 border-black lg:py-1">
+                            Data
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li className="relative md:px-[15px] lg:px-[25px] lg:py-[20px] border-t-[1px] lg:border-[1px] border-black lg:rounded-[20px]">
+                      <svg
+                        className="hidden lg:block absolute left-0 top-0 w-full h-full"
+                        preserveAspectRatio="none"
+                        viewBox="0 0 260 419"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M237.24 390L231.083 390M229 392.085L229 398.246"
+                          stroke="#1D1D1D"
+                          strokeMiterlimit="10"
+                        />
+                        <path
+                          d="M22 390L28.1571 390M30.2402 392.085L30.2402 398.246"
+                          stroke="#1D1D1D"
+                          strokeMiterlimit="10"
+                        />
+                        <path
+                          d="M237.24 29.2461L231.083 29.2461M229 27.1615L229 21"
+                          stroke="#1D1D1D"
+                          strokeMiterlimit="10"
+                        />
+                        <path
+                          d="M22 29.2461L28.1571 29.2461M30.2402 27.1615L30.2402 21"
+                          stroke="#1D1D1D"
+                          strokeMiterlimit="10"
+                        />
+                      </svg>
+                      <h3 className="h3 lg:text-[20px] xl:text-[30px] lg:h-[40px] mt-4 lg:mt-12">
+                        Advertising
+                      </h3>
+                      <div className="h5 lg:text-[11px] xl:text-[16px] my-4 xl:mt-24 lg:lg-5 xl:mb-12">
+                        <ul>
+                          <li className="lg:border-b-[1px] last:border-0 border-black lg:py-1">
+                            Digital
+                          </li>
+                          <li className="lg:border-b-[1px] last:border-0 border-black lg:py-1">
+                            TV
+                          </li>
+                          <li className="lg:border-b-[1px] last:border-0 border-black lg:py-1">
+                            Print
+                          </li>
+                          <li className="lg:border-b-[1px] last:border-0 border-black lg:py-1">
+                            Radio
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li className="relative md:px-[15px] lg:px-[25px] lg:py-[20px] border-t-[1px] lg:border-[1px] border-black lg:rounded-[20px]">
+                      <svg
+                        className="hidden lg:block absolute left-0 top-0 w-full h-full"
+                        preserveAspectRatio="none"
+                        viewBox="0 0 260 419"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M237.24 390L231.083 390M229 392.085L229 398.246"
+                          stroke="#1D1D1D"
+                          strokeMiterlimit="10"
+                        />
+                        <path
+                          d="M22 390L28.1571 390M30.2402 392.085L30.2402 398.246"
+                          stroke="#1D1D1D"
+                          strokeMiterlimit="10"
+                        />
+                        <path
+                          d="M237.24 29.2461L231.083 29.2461M229 27.1615L229 21"
+                          stroke="#1D1D1D"
+                          strokeMiterlimit="10"
+                        />
+                        <path
+                          d="M22 29.2461L28.1571 29.2461M30.2402 27.1615L30.2402 21"
+                          stroke="#1D1D1D"
+                          strokeMiterlimit="10"
+                        />
+                      </svg>
+                      <h3 className="h3 lg:text-[20px] xl:text-[30px] lg:h-[40px] mt-4 lg:mt-12">
+                        Activations
+                      </h3>
+                      <div className="h5 lg:text-[11px] xl:text-[16px] my-4 xl:mt-24 lg:lg-5 xl:mb-12">
+                        <ul>
+                          <li className="lg:border-b-[1px] last:border-0 border-black lg:py-1">
+                            Social media
+                          </li>
+                          <li className="lg:border-b-[1px] last:border-0 border-black lg:py-1">
+                            Influencers
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li c

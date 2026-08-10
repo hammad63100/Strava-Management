@@ -1,0 +1,217 @@
+export default function ProcessSection() {
+  const phases = [
+    {
+      number: "01",
+      title: "Phase 01 — Foundation & Company Formation",
+      question: "“ Is the business structured to operate correctly? ”",
+      summary:
+        "“ We establish the legal and operating foundation before marketplace activity begins. Specialist legal, tax, banking, or compliance work may be delivered by qualified third parties where required. ”",
+      bullets: [
+        "Founder objective and ownership structure",
+        "US company formation coordination — open to founders anywhere in the world, regardless of citizenship or residency",
+        "EIN and foundational documentation guidance",
+        "Business banking and payment-readiness coordination, including remote account opening for international founders",
+        "Amazon seller account preparation",
+        "Trademark and brand-protection pathway",
+        "Operating budget and launch roadmap",
+      ],
+      image: "/images/img_fe98650a.jpeg",
+      srcSet:
+        "https://cdn.sanity.io/images/nhm28xef/production/c92bd71917e5239388e682ba69633a8daef694e1-400x540.jpg?w=400&h=540&auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/c92bd71917e5239388e682ba69633a8daef694e1-400x540.jpg?w=300&h=405&auto=format 3x",
+    },
+    {
+      number: "02",
+      title: "Phase 02 — Market Selection & Validation",
+      question: "“ Is there a credible market worth entering? ”",
+      summary:
+        "“ We look for a defendable commercial gap, not simply a product with high search volume. ”",
+      bullets: [
+        "Category demand and maturity",
+        "Competitive concentration",
+        "Customer expectations and review barriers",
+        "Pricing architecture",
+        "Keyword and search behaviour",
+        "Differentiation potential",
+        "Regulatory and supply-chain exposure",
+        "Portfolio expansion potential",
+      ],
+      image: "/images/img_f631190f.jpeg",
+      srcSet:
+        "https://cdn.sanity.io/images/nhm28xef/production/c869dd42178e989a354bb93d374d8d4bcaa5adfa-400x540.jpg?w=400&h=540&auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/c869dd42178e989a354bb93d374d8d4bcaa5adfa-400x540.jpg?w=300&h=405&auto=format 3x",
+    },
+    {
+      number: "03",
+      title: "Phase 03 — Viability Assessment",
+      question: "“ Can the opportunity produce a durable return? ”",
+      summary:
+        "“ The founder receives a clear recommendation: proceed, revise, or decline. ”",
+      bullets: [
+        "Landed-cost modelling",
+        "Amazon fee structure",
+        "Contribution-margin forecast",
+        "Customer acquisition assumptions",
+        "Inventory and working-capital requirements",
+        "Break-even analysis",
+        "Sensitivity testing",
+        "Launch-capital requirements",
+      ],
+      image: "/images/img_4fabecd6.jpeg",
+      srcSet:
+        "https://cdn.sanity.io/images/nhm28xef/production/6c0466c31e6e03a2ed38c0b4538fdc459b93492c-400x540.jpg?w=400&h=540&auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/6c0466c31e6e03a2ed38c0b4538fdc459b93492c-400x540.jpg?w=300&h=405&auto=format 3x",
+    },
+    {
+      number: "04",
+      title: "Phase 04 — Brand Development & Activation",
+      question: "“ Can the brand communicate and convert? ”",
+      summary:
+        "“ We build the conversion infrastructure required for a disciplined market entry. ”",
+      bullets: [
+        "Brand positioning and naming coordination",
+        "Packaging and visual direction",
+        "Supplier and sample coordination",
+        "Search-led product-page strategy",
+        "Product photography and image direction",
+        "Copy, SEO, and enhanced brand content",
+        "Pricing and offer architecture",
+        "Initial inventory and launch sequencing",
+      ],
+      image: "/images/img_e4be7a77.jpeg",
+      srcSet:
+        "https://cdn.sanity.io/images/nhm28xef/production/8c5fa1fc73249f61d558852875d6e8a6ad8e8231-400x540.jpg?w=400&h=540&auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/8c5fa1fc73249f61d558852875d6e8a6ad8e8231-400x540.jpg?w=300&h=405&auto=format 3x",
+    },
+    {
+      number: "05",
+      title: "Phase 05 — Performance Stewardship",
+      question: "“ Can the business expand without weakening the economics? ”",
+      summary:
+        "“ Spend is increased when the economics justify it. Revenue is not treated as success in isolation. ”",
+      bullets: [
+        "Advertising and demand stewardship",
+        "Organic search position",
+        "Conversion performance",
+        "Pricing integrity",
+        "Inventory oversight",
+        "Contribution margin",
+        "Competitive movement",
+        "Account health and marketplace compliance",
+        "Product-level reporting",
+        "Expansion decisions",
+      ],
+      image: "/images/img_fe98650a.jpeg",
+      srcSet:
+        "https://cdn.sanity.io/images/nhm28xef/production/c92bd71917e5239388e682ba69633a8daef694e1-400x540.jpg?w=400&h=540&auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/c92bd71917e5239388e682ba69633a8daef694e1-400x540.jpg?w=300&h=405&auto=format 3x",
+    },
+    {
+      number: "06",
+      title: "Phase 06 — Asset Enhancement & Exit-Readiness",
+      question: "“ Is the business becoming more transferable and valuable? ”",
+      summary:
+        "“ Exit-readiness strengthens the company even when the founder intends to retain long-term ownership. ”",
+      bullets: [
+        "Financial clarity",
+        "Documented operating procedures",
+        "Supplier resilience",
+        "Brand ownership",
+        "Inventory controls",
+        "Founder independence",
+        "Portfolio diversification",
+        "Reliable earnings history",
+        "Transaction-readiness documentation",
+      ],
+      image: "/images/img_f631190f.jpeg",
+      srcSet:
+        "https://cdn.sanity.io/images/nhm28xef/production/c869dd42178e989a354bb93d374d8d4bcaa5adfa-400x540.jpg?w=400&h=540&auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/c869dd42178e989a354bb93d374d8d4bcaa5adfa-400x540.jpg?w=300&h=405&auto=format 3x",
+    },
+  ];
+
+  return (
+    <div id="process" className="bg-[#7B7762] text-black">
+      {/* Header section with image */}
+      <div className="dimensions container pt-[40px] lg:pt-[60px] grid lg:gap-[30px] lg:grid-cols-12 items-center">
+        <img
+          className="rounded-[15px] lg:rounded-[20px] lg:col-span-7"
+          src="/images/img_28543dd8.jpeg"
+          srcSet="https://cdn.sanity.io/images/nhm28xef/production/10cb0fb9aa61cea91e3ac3bd70767755413ea78b-1554x1030.jpg?rect=2,0,1550,1030&w=1550&h=1030&auto=format 2x, https://cdn.sanity.io/images/nhm28xef/production/10cb0fb9aa61cea91e3ac3bd70767755413ea78b-1554x1030.jpg?rect=2,0,1551,1030&w=560&h=372&auto=format 3x"
+          alt="The Process"
+        />
+        <div className="hidden lg:block lg:col-span-5 py-[30px] lg:py-0 text-left">
+          <h2 className="h2 font-bold tracking-tight text-black text-[32px] lg:text-[42px]">
+            THE PROCESS
+          </h2>
+          <p className="normal-case text-[20px] lg:text-[24px] leading-relaxed mt-2 text-black/90 font-semibold">
+            A Disciplined Sequence from Formation to Asset Value.
+          </p>
+        </div>
+      </div>
+
+      {/* Mobile Sticky Title Bar */}
+      <div className="sticky top-[80px] lg:hidden py-[20px] text-center bg-[#7B7762] z-20 px-4 border-t-[1px] border-black">
+        <h2 className="h2 font-bold text-black text-[28px]">THE PROCESS</h2>
+        <p className="normal-case text-[16px] leading-relaxed mt-1 text-black/90 font-semibold">
+          A Disciplined Sequence from Formation to Asset Value.
+        </p>
+      </div>
+
+      {/* Cards List Track */}
+      <div
+        id="about"
+        className="relative container lg:mt-[35px] pb-[350px] lg:pb-[650px] pt-12"
+      >
+        <ul
+          id="services"
+          className="border-t-[1px] border-black dimensions_ul relative pt-6 space-y-[80px] lg:space-y-[150px]"
+        >
+          {phases.map((phase, idx) => (
+            <li
+              key={phase.number}
+              className="auto-rows-max min-h-[380px] h-auto sticky relative py-6 lg:py-10 px-6 lg:px-10 text-black grid grid-cols-2 lg:grid-cols-[24%_32%_23%_auto] lg:gap-[20px] rounded-none border-t-[1px] border-black"
+              style={{
+                top: `${100 + idx * 80}px`,
+                backgroundColor: "#7B7762",
+                borderTop: "1px solid #000000",
+                opacity: 1,
+                zIndex: 10 + idx,
+              }}
+            >
+              {/* Col 1: Phase Title */}
+              <div className="flex flex-col lg:grid lg:col-span-3 lg:grid-cols-[29%_39%_29%] leading-[1.1] gap-1 lg:gap-[20px]">
+                <span className="h3 mb-4 font-bold text-[20px] lg:text-[24px] text-black">
+                  {phase.title}
+                </span>
+              </div>
+
+              {/* Col 2: Question & Foundational Quote */}
+              <div className="col-span-2 col-start-1 lg:col-start-2 lg:row-start-2 lg:col-span-1 flex flex-col justify-between gap-6 py-[15px] lg:py-0 lg:pr-[30px]">
+                <span className="h4 lg:py-0 font-medium text-[17px] lg:text-[21px] text-black leading-snug">
+                  {phase.question}
+                </span>
+                <p className="text-[13px] lg:text-[15px] italic text-black/85 font-medium leading-relaxed">
+                  {phase.summary}
+                </p>
+              </div>
+
+              {/* Col 3: Bullet points */}
+              <div className="col-span-2 lg:col-start-3 lg:row-start-2 lg:col-span-1 normal-case lg:self-end text-[13px] lg:text-[15px] text-black/90 font-medium">
+                <ul className="space-y-1.5 list-none">
+                  {phase.bullets.map((bullet, bIdx) => (
+                    <li key={bIdx} className="leading-snug">
+                      ● {bullet}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Col 4: Image */}
+              <img
+                className="h-[120px] row-start-1 col-start-2 lg:col-start-4 lg:row-start-1 lg:row-span-2 justify-self-end lg:w-full lg:h-full rounded-[4px] object-cover grayscale-off mix-blend-multiply-off lg:rounded-[10px] aspect-[210/285] lg:h-[290px]"
+                src={phase.image}
+                srcSet={phase.srcSet}
+                alt={phase.title}
+              />
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+}
