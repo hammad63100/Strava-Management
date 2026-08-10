@@ -3,124 +3,52 @@
 export default function TeamSection() {
   const activists = [
     {
-      name: "Gaylord",
-      title: "Creation director - Associate",
-      skills: "Management, Bricolage",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/fda622e05c0396492d484e2506e10ffe1a2fa28b-350x525.jpg?w=350&h=525&auto=format"
-    },
-    {
-      name: "Anais",
-      title: "Creation director",
-      skills: "Seller account readiness, CSE, Fille de psy et féministe",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/7823a0d5a4a5a4ec9c45d04500299c27c320f681-350x525.jpg?w=350&h=525&auto=format"
-    },
-    {
-      name: "Léandre",
-      title: "Artistic director (video/film director)",
-      skills: "Photographie, Réalisation, Rap & street art fan",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/3687b26e358deb2a3419bbc803d4b04c25eb5aa3-350x525.jpg?w=350&h=525&auto=format"
-    },
-    {
-      name: "Fanette",
-      title: "Artistique director",
-      skills: "Set design, Photographie, Coloriste",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/7bcc89ea301a0018245a5cf588c00df0f293adfe-350x525.jpg?w=350&h=525&auto=format"
-    },
-    {
-      name: "Geoffrey",
-      title: "Artistic director",
-      skills: "Print / Édition / Graphisme, Photographie, Backstage concerts",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/95b6dfb4e9446eaa8778704efe03870616ea270e-350x525.jpg?w=350&h=525&auto=format"
-    },
-    {
-      name: "Manon",
-      title: "Motion designer / Artistic director",
-      skills: "Typographie, Animation, Photographie",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/f8ea559a42f6cb007994ebcf149b56f8f1725586-350x525.jpg?w=350&h=525&auto=format"
-    },
-    {
-      name: "Valentin",
-      title: "Motion designer",
-      skills: "Screenwriting, Composition, Fan of 80s anime",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/f615414f5ac4bfcd62d591ad7a87ea711d95ae40-350x525.jpg?w=350&h=525&auto=format"
-    },
-    {
-      name: "Cécilia",
-      title: "Junior artistic director",
-      skills: "Graphisme, Illustration, Passion tricot",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/50f97914f6b5b15be625bd94e1fe2ef998eb8905-350x525.jpg?w=350&h=525&auto=format"
-    },
-    {
-      name: "Gautier",
-      title: "Copywriter",
-      skills: "Conception, Scripts, Micro-nouvelles",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/a9d5dd2eb5dfec0eec0dfdf2fbc8fc3e30f16fb5-350x525.jpg?w=350&h=525&auto=format"
-    },
-    {
-      name: "Robin",
-      title: "Artistic director",
-      skills: "Branding, Packaging, Design graphique",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/bf5df1840ef901cff24b7a8a1ff81c3d10ab2851-350x525.jpg?w=350&h=525&auto=format"
-    },
-    {
-      name: "Clara",
-      title: "Project manager",
-      skills: "Amazon strategy, PPC ads, Coordination",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/c3be992837ce51a8d052ec01a7ca20fbafb98150-350x525.jpg?w=350&h=525&auto=format"
-    },
-    {
-      name: "Alexandre",
-      title: "Brand Strategist",
-      skills: "Catalog expansion, FBA audit, Brand registry",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/b520ca8aedbc5ffb9ee562d475ef99cceee852ef-350x525.jpg?w=350&h=525&auto=format"
-    },
-    {
-      name: "Sophie",
-      title: "Content lead",
-      skills: "A+ Content, Listing copywriting, SEO",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/d30b91950dcf3f350c30ee1d624aeb0a2fef9bc7-350x525.jpg?w=350&h=525&auto=format"
-    },
-    {
-      name: "Lucas",
-      title: "E-Commerce Specialist",
-      skills: "Inventory forecasting, Supply chain, Amazon DSP",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/66df9845cc8bf85db7aa0cfa0faef3d76e4c76ea-350x525.jpg?w=350&h=525&auto=format"
-    },
-    {
-      name: "Camille",
-      title: "Media Buyer",
-      skills: "Algorithmic bidding, Campaign launch, LTV optimization",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/eb32759e6fbafbf1f5ee743ad26fef093a207bf2-350x525.jpg?w=350&h=525&auto=format"
-    },
-    {
-      name: "Antoine",
+      name: "Sarah",
       title: "Account Director",
       skills: "Global expansion, Marketplace growth, Exit prep",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/8b350697adfe42fa9d8ff720ec2c5fbf9672ebcd-350x525.jpg?w=350&h=525&auto=format"
+      img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=350&h=525&auto=format&fit=crop&q=80"
     },
     {
-      name: "Emma",
-      title: "UI/UX Designer",
-      skills: "Storefront layout, Brand storytelling, Mobile UI",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/94af6d63ea3ebcdff33ee3c9fef20bc71ab8521a-350x525.jpg?w=350&h=525&auto=format"
-    },
-    {
-      name: "Hugo",
+      name: "Michael",
       title: "PPC Manager",
       skills: "Keywords optimization, TACoS management, Sponsored ads",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/25e36f0187ae29eb7707ee7d53086eb2fae0c8b2-350x525.jpg?w=350&h=525&auto=format"
+      img: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=350&h=525&auto=format&fit=crop&q=80"
     },
     {
-      name: "Inès",
-      title: "Brand Specialist",
-      skills: "Competitor benchmarking, Pricing strategy, Margins",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/07b83e1c94e0bc98eef62a93abfae981cfef7bc1-350x525.jpg?w=350&h=525&auto=format"
+      name: "Elena",
+      title: "Content Lead",
+      skills: "A+ Content, Listing copywriting, SEO",
+      img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=350&h=525&auto=format&fit=crop&q=80"
     },
     {
-      name: "Nathan",
-      title: "Creative Strategist",
-      skills: "Video ads, Product rendering, 3D branding",
-      img: "https://cdn.sanity.io/images/nhm28xef/production/26bec19614798eb4f940eaec18a7fe71bfab1420-350x525.jpg?w=350&h=525&auto=format"
+      name: "David",
+      title: "Brand Strategist",
+      skills: "Catalog expansion, FBA audit, Brand registry",
+      img: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=350&h=525&auto=format&fit=crop&q=80"
+    },
+    {
+      name: "Jessica",
+      title: "E-Commerce Specialist",
+      skills: "Inventory forecasting, Supply chain, Amazon DSP",
+      img: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=350&h=525&auto=format&fit=crop&q=80"
+    },
+    {
+      name: "James",
+      title: "Media Buyer",
+      skills: "Algorithmic bidding, Campaign launch, LTV optimization",
+      img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=350&h=525&auto=format&fit=crop&q=80"
+    },
+    {
+      name: "Olivia",
+      title: "UI/UX Designer",
+      skills: "Storefront layout, Brand storytelling, Mobile UI",
+      img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=350&h=525&auto=format&fit=crop&q=80"
+    },
+    {
+      name: "William",
+      title: "Catalog Manager",
+      skills: "Account health, Compliance, Marketplace strategy",
+      img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=350&h=525&auto=format&fit=crop&q=80"
     }
   ];
 
@@ -128,10 +56,10 @@ export default function TeamSection() {
     <section className="py-16 bg-[#f5f2ee] text-[#1b1b1b]">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="h3 text-center lg:text-left text-2xl lg:text-4xl font-bold uppercase tracking-tight mb-[35px] lg:mt-[25px] lg:mb-[70px]">
-          60+ brand activists<br />dedicated to serving brands
+          brand activists<br />dedicated to serving brands
         </div>
         <div className="relative my-10 lg:my-[70px]">
-          <ul className="grid grid-cols-4 sm:grid-cols-5 lg:grid-cols-10 gap-3">
+          <ul className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
             {activists.map((member, i) => (
               <li
                 key={i}
@@ -142,7 +70,7 @@ export default function TeamSection() {
                 data-img={member.img}
               >
                 <img
-                  className="w-full h-auto object-cover duration-300 group-hover:brightness-105"
+                  className="w-full h-[350px] object-cover duration-300 group-hover:brightness-105"
                   src={member.img}
                   alt={member.name}
                   loading="lazy"

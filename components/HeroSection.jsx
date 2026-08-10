@@ -153,8 +153,7 @@ export default function HeroSection() {
       <div className="imageTrailAgence hidden lg:block absolute inset-0 pointer-events-none">
         <img
           className="opacity-0 absolute aspect-[3/4] w-[180px] rounded-[5px] object-cover"
-          src="/images/img_8e43e6da.jpeg"
-          srcset="https://cdn.sanity.io/images/nhm28xef/production/388614578b80d0e5c7ca830fba1af05188f7188e-318x477.jpg?w=240&amp;auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/388614578b80d0e5c7ca830fba1af05188f7188e-318x477.jpg?w=160&amp;auto=format 3x"
+          src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400&q=80"
           style={{
             opacity: "0",
             translate: "none",
@@ -166,8 +165,7 @@ export default function HeroSection() {
         />
         <img
           className="opacity-0 absolute aspect-[3/4] w-[180px] rounded-[5px] object-cover"
-          src="/images/img_a6b8b6a8.jpeg"
-          srcset="https://cdn.sanity.io/images/nhm28xef/production/8f077d8de91dc3bd463e8ab9cd61aad36e228807-318x477.jpg?w=240&amp;auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/8f077d8de91dc3bd463e8ab9cd61aad36e228807-318x477.jpg?w=160&amp;auto=format 3x"
+          src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&q=80"
           style={{
             opacity: "0",
             translate: "none",
@@ -179,8 +177,7 @@ export default function HeroSection() {
         />
         <img
           className="opacity-0 absolute aspect-[3/4] w-[180px] rounded-[5px] object-cover"
-          src="/images/img_54ef7bc6.jpeg"
-          srcset="https://cdn.sanity.io/images/nhm28xef/production/739990e6777258ede86c3ba9d683664669c7ba51-334x477.jpg?w=240&amp;auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/739990e6777258ede86c3ba9d683664669c7ba51-334x477.jpg?w=160&amp;auto=format 3x"
+          src="https://images.unsplash.com/photo-1519389953810-c1036cb8c31c?w=400&q=80"
           style={{
             opacity: "0",
             translate: "none",
@@ -192,8 +189,7 @@ export default function HeroSection() {
         />
         <img
           className="opacity-0 absolute aspect-[3/4] w-[180px] rounded-[5px] object-cover"
-          src="/images/img_1426e201.jpeg"
-          srcset="https://cdn.sanity.io/images/nhm28xef/production/9cf4ee3222aade728de214104023d89a12246fc5-318x477.jpg?w=240&amp;auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/9cf4ee3222aade728de214104023d89a12246fc5-318x477.jpg?w=160&amp;auto=format 3x"
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&q=80"
           style={{
             opacity: "0",
             translate: "none",
@@ -205,8 +201,7 @@ export default function HeroSection() {
         />
         <img
           className="opacity-0 absolute aspect-[3/4] w-[180px] rounded-[5px] object-cover"
-          src="/images/img_cb0ca2c6.jpeg"
-          srcset="https://cdn.sanity.io/images/nhm28xef/production/40b39b98247985b797fef308e97dc079f682efcc-318x477.jpg?w=240&amp;auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/40b39b98247985b797fef308e97dc079f682efcc-318x477.jpg?w=160&amp;auto=format 3x"
+          src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80"
           style={{
             opacity: "0",
             translate: "none",
@@ -218,7 +213,7 @@ export default function HeroSection() {
         />
         <img
           className="opacity-0 absolute aspect-[3/4] w-[180px] rounded-[5px] object-cover"
-          src="/images/img_97e25d2a.jpeg"
+          src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400&q=80"
           style={{
             opacity: "0",
             translate: "none",
@@ -230,7 +225,7 @@ export default function HeroSection() {
         />
         <img
           className="opacity-0 absolute aspect-[3/4] w-[180px] rounded-[5px] object-cover"
-          src="/images/img_c0fba1dc.jpeg"
+          src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&q=80"
           style={{
             opacity: "0",
             translate: "none",
@@ -242,7 +237,7 @@ export default function HeroSection() {
         />
         <img
           className="opacity-0 absolute aspect-[3/4] w-[180px] rounded-[5px] object-cover"
-          src="/images/img_59fea7e6.jpeg"
+          src="https://images.unsplash.com/photo-1519389953810-c1036cb8c31c?w=400&q=80"
           style={{
             opacity: "0",
             translate: "none",
@@ -254,7 +249,7 @@ export default function HeroSection() {
         />
         <img
           className="opacity-0 absolute aspect-[3/4] w-[180px] rounded-[5px] object-cover"
-          src="/images/img_40319b6c.jpeg"
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&q=80"
           style={{
             opacity: "0",
             translate: "none",
@@ -266,7 +261,7 @@ export default function HeroSection() {
         />
         <img
           className="opacity-0 absolute aspect-[3/4] w-[180px] rounded-[5px] object-cover"
-          src="/images/img_73ba7ce4.jpeg"
+          src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80"
           style={{
             opacity: "0",
             translate: "none",
@@ -280,15 +275,15 @@ export default function HeroSection() {
       <div className="imagesHeroAgenceWebmo absolute top-[calc(50%+60px)] lg:hidden grid grid-cols-3">
         <img
           className="aspect-[4/6] w-[95px] md:w-[120px] rounded-[6px] object-cover translate-x-[30px] translate-y-[-10px] md:translate-y-[30px] rotate-[-10deg]"
-          src="/images/img_1dc20e6c.jpeg"
+          src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400&q=80"
         />
         <img
           className="aspect-[4/6] w-[95px] md:w-[120px] rounded-[6px] object-cover translate-x-0 translate-y-[20px] md:translate-y-[40px] rotate-[-3deg] z-[2]"
-          src="/images/img_4e585c3b.jpeg"
+          src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&q=80"
         />
         <img
           className="aspect-[4/6] w-[95px] md:w-[120px] rounded-[6px] object-cover translate-x-[-30px] translate-y-[-30px] md:translate-y-[20px] rotate-[8deg]"
-          src="/images/img_b7ed24ff.jpeg"
+          src="https://images.unsplash.com/photo-1519389953810-c1036cb8c31c?w=400&q=80"
         />
       </div>
     </section>

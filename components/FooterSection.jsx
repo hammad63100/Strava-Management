@@ -7,7 +7,7 @@ export default function FooterSection() {
             <div className="lg:grid lg:grid-cols-6 lg:grid-rows-[auto_100px_auto] xl:grid-rows-[auto_200px_auto]">
               <div className="lg:col-span-3">
                 <p className="text-[16px]">Send us a brief</p>
-                <a href="mailto:stravamangmnet@gmail.com" className="h4">
+                <a href="mailto:hello@stravamanagement.com" className="h4">
                   <svg
                     className="cursor-pointer hover:opacity-[0.8] mx-auto lg:mx-0 mt-[5px] w-[187px] lg:w-[278px] h-auto"
                     viewBox="0 0 280 20"
@@ -22,7 +22,7 @@ export default function FooterSection() {
                       fontWeight="900"
                       letterSpacing="-0.01em"
                     >
-                      STRAVAMANGMNET@GMAIL.COM
+                      HELLO@STRAVAMANAGEMENT.COM
                     </text>
                   </svg>
                 </a>
@@ -61,7 +61,7 @@ export default function FooterSection() {
               <div className="grid h6 lg:block lg:row-start-3 lg:leading-[1.3]">
                 <a
                   className="lg:block hover:opacity-[0.8]"
-                  href="https://www.instagram.com/agence_rebellion/"
+                  href="https://www.instagram.com/stravamanagement/"
                   rel="noopener"
                   target="_blank"
                 >
@@ -69,7 +69,7 @@ export default function FooterSection() {
                 </a>
                 <a
                   className="lg:block hover:opacity-[0.8]"
-                  href="https://www.linkedin.com/company/agence-rebellion/"
+                  href="https://www.linkedin.com/company/stravamanagement/"
                   rel="noopener"
                   target="_blank"
                 >
@@ -77,7 +77,7 @@ export default function FooterSection() {
                 </a>
                 <a
                   className="lg:block hover:opacity-[0.8]"
-                  href="https://www.youtube.com/@agencerebellion1855"
+                  href="https://www.youtube.com/@stravamanagement"
                   rel="noopener"
                   target="_blank"
                 >
@@ -87,14 +87,14 @@ export default function FooterSection() {
               <div className="mt-[20px] mb-[50px] lg:my-0 grid text-[12px] lg:row-start-3 lg:col-start-3 lg:col-span-4 lg:grid lg:grid-cols-4">
                 <p className="h6 font-bold mt-[15px] lg:mt-0">&nbsp;</p>
                 <p className="lg:col-span-3">&nbsp;</p>
-                <p className="h6 font-bold">Paris</p>
+                <p className="h6 font-bold">New York</p>
                 <p className="lg:col-span-3">
-                  28 rue Boissy d’Anglas, 8ème
+                  100 Broadway, Manhattan
                 </p>
                 <p className="h6 font-bold mt-[15px] lg:mt-0">
-                  Marseille
+                  London
                 </p>
-                <p className="lg:col-span-3">55 rue Marignan, 7ème</p>
+                <p className="lg:col-span-3">20 Fenchurch St, City of London</p>
               </div>
             </div>
           </div>

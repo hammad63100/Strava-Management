@@ -15,9 +15,7 @@ export default function ProcessSection() {
         "Trademark and brand-protection pathway",
         "Operating budget and launch roadmap",
       ],
-      image: "/images/img_fe98650a.jpeg",
-      srcSet:
-        "https://cdn.sanity.io/images/nhm28xef/production/c92bd71917e5239388e682ba69633a8daef694e1-400x540.jpg?w=400&h=540&auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/c92bd71917e5239388e682ba69633a8daef694e1-400x540.jpg?w=300&h=405&auto=format 3x",
+      image: "https://images.unsplash.com/photo-1664575602276-acd073f104c1?w=800&q=80",
     },
     {
       number: "02",
@@ -35,9 +33,7 @@ export default function ProcessSection() {
         "Regulatory and supply-chain exposure",
         "Portfolio expansion potential",
       ],
-      image: "/images/img_f631190f.jpeg",
-      srcSet:
-        "https://cdn.sanity.io/images/nhm28xef/production/c869dd42178e989a354bb93d374d8d4bcaa5adfa-400x540.jpg?w=400&h=540&auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/c869dd42178e989a354bb93d374d8d4bcaa5adfa-400x540.jpg?w=300&h=405&auto=format 3x",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
     },
     {
       number: "03",
@@ -55,9 +51,7 @@ export default function ProcessSection() {
         "Sensitivity testing",
         "Launch-capital requirements",
       ],
-      image: "/images/img_4fabecd6.jpeg",
-      srcSet:
-        "https://cdn.sanity.io/images/nhm28xef/production/6c0466c31e6e03a2ed38c0b4538fdc459b93492c-400x540.jpg?w=400&h=540&auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/6c0466c31e6e03a2ed38c0b4538fdc459b93492c-400x540.jpg?w=300&h=405&auto=format 3x",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
     },
     {
       number: "04",
@@ -75,9 +69,7 @@ export default function ProcessSection() {
         "Pricing and offer architecture",
         "Initial inventory and launch sequencing",
       ],
-      image: "/images/img_e4be7a77.jpeg",
-      srcSet:
-        "https://cdn.sanity.io/images/nhm28xef/production/8c5fa1fc73249f61d558852875d6e8a6ad8e8231-400x540.jpg?w=400&h=540&auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/8c5fa1fc73249f61d558852875d6e8a6ad8e8231-400x540.jpg?w=300&h=405&auto=format 3x",
+      image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80",
     },
     {
       number: "05",
@@ -97,9 +89,7 @@ export default function ProcessSection() {
         "Product-level reporting",
         "Expansion decisions",
       ],
-      image: "/images/img_fe98650a.jpeg",
-      srcSet:
-        "https://cdn.sanity.io/images/nhm28xef/production/c92bd71917e5239388e682ba69633a8daef694e1-400x540.jpg?w=400&h=540&auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/c92bd71917e5239388e682ba69633a8daef694e1-400x540.jpg?w=300&h=405&auto=format 3x",
+      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
     },
     {
       number: "06",
@@ -118,9 +108,7 @@ export default function ProcessSection() {
         "Reliable earnings history",
         "Transaction-readiness documentation",
       ],
-      image: "/images/img_f631190f.jpeg",
-      srcSet:
-        "https://cdn.sanity.io/images/nhm28xef/production/c869dd42178e989a354bb93d374d8d4bcaa5adfa-400x540.jpg?w=400&h=540&auto=format 2x,https://cdn.sanity.io/images/nhm28xef/production/c869dd42178e989a354bb93d374d8d4bcaa5adfa-400x540.jpg?w=300&h=405&auto=format 3x",
+      image: "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=800&q=80",
     },
   ];
 
@@ -129,9 +117,8 @@ export default function ProcessSection() {
       {/* Header section with image */}
       <div className="dimensions container pt-[40px] lg:pt-[60px] grid lg:gap-[30px] lg:grid-cols-12 items-center">
         <img
-          className="rounded-[15px] lg:rounded-[20px] lg:col-span-7"
-          src="/images/img_28543dd8.jpeg"
-          srcSet="https://cdn.sanity.io/images/nhm28xef/production/10cb0fb9aa61cea91e3ac3bd70767755413ea78b-1554x1030.jpg?rect=2,0,1550,1030&w=1550&h=1030&auto=format 2x, https://cdn.sanity.io/images/nhm28xef/production/10cb0fb9aa61cea91e3ac3bd70767755413ea78b-1554x1030.jpg?rect=2,0,1551,1030&w=560&h=372&auto=format 3x"
+          className="rounded-[15px] lg:rounded-[20px] lg:col-span-7 object-cover aspect-video"
+          src="https://images.unsplash.com/photo-1542744094-3a31f272c490?w=1600&q=80"
           alt="The Process"
         />
         <div className="hidden lg:block lg:col-span-5 py-[30px] lg:py-0 text-left">
@@ -205,7 +192,6 @@ export default function ProcessSection() {
               <img
                 className="h-[120px] row-start-1 col-start-2 lg:col-start-4 lg:row-start-1 lg:row-span-2 justify-self-end lg:w-full lg:h-full rounded-[4px] object-cover grayscale-off mix-blend-multiply-off lg:rounded-[10px] aspect-[210/285] lg:h-[290px]"
                 src={phase.image}
-                srcSet={phase.srcSet}
                 alt={phase.title}
               />
             </li>
