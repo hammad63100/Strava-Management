@@ -172,13 +172,13 @@ export default function ProcessSection() {
                 <span className="h4 lg:py-0 font-medium text-[17px] lg:text-[21px] text-black leading-snug">
                   {phase.question}
                 </span>
-                <p className="text-[13px] lg:text-[15px] italic text-black/85 font-medium leading-relaxed">
+                <p className="text-[15px] lg:text-[17px] italic text-black/85 font-bold leading-relaxed">
                   {phase.summary}
                 </p>
               </div>
 
               {/* Col 3: Bullet points */}
-              <div className="col-span-2 lg:col-start-3 lg:row-start-2 lg:col-span-1 normal-case lg:self-end text-[13px] lg:text-[15px] text-black/90 font-medium">
+              <div className="col-span-2 lg:col-start-3 lg:row-start-2 lg:col-span-1 uppercase lg:self-end text-[15px] lg:text-[17px] text-black/90 font-bold">
                 <ul className="space-y-1.5 list-none">
                   {phase.bullets.map((bullet, bIdx) => (
                     <li key={bIdx} className="leading-snug">

@@ -4,6 +4,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/Strava-Management' : '',
+  ...(process.env.NODE_ENV === 'production' ? { basePath: '/Strava-Management' } : {}),
 };
 export default nextConfig;

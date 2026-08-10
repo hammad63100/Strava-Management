@@ -19,12 +19,7 @@ export default function HeroSection() {
         >
           STRAVA MANAGEMENT
         </div>
-        <div
-          className="absolute w-full flex justify-center pointer-events-auto"
-          style={{ bottom: "80px", zIndex: 50 }}
-        >
-          <ToggleSwitch />
-        </div>
+        <ToggleSwitch />
 
         <span className="absolute inset-0 grid grid-cols-[auto_auto] justify-between content-between pointer-events-none lg:hidden">
           <svg
