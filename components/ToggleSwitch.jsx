@@ -1,17 +1,20 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import { useView } from "./ViewContext";
 
-export default function ToggleSwitch() {
-  const [active, setActive] = useState("agency");
+export default function ToggleSwitch({ inFlow = false }) {
+  const { activeView: active, setActiveView: setActive } = useView();
   const [hidden, setHidden] = useState(false);
 
   useEffect(() => {
+    if (inFlow) return; // Don't handle scroll hiding if it's in flow
+    
     const handleScroll = () => {
       const footer = document.querySelector("footer");
       if (footer) {
         const rect = footer.getBoundingClientRect();
-        // Hide when footer enters the viewport (top of footer is within 100px from window bottom)
+        // Hide when footer enters the viewport
         if (rect.top <= window.innerHeight - 50) {
           setHidden(true);
         } else {
@@ -23,11 +26,15 @@ export default function ToggleSwitch() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [inFlow]);
 
-  return (
-    <div
-      style={{
+  const containerStyle = inFlow
+    ? {
+        position: "relative",
+        zIndex: 10,
+        margin: "0 auto",
+      }
+    : {
         position: "fixed",
         bottom: "40px",
         left: "50%",
@@ -35,8 +42,10 @@ export default function ToggleSwitch() {
         transition: "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
         zIndex: 9999,
         pointerEvents: "auto",
-      }}
-    >
+      };
+
+  return (
+    <div style={containerStyle}>
       <div
         style={{
           display: "flex",

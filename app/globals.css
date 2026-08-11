@@ -2511,3 +2511,254 @@ body {
   background: rgb(123, 119, 98);
   opacity: 0;
 }
+
+/* BrandsSection styles */
+.brands-section {
+  background-color: #f4f3ef;
+  color: black;
+  width: 100%;
+}
+
+.brands-hero {
+  background-color: #f4f3ef;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 80px;
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid transparent;
+}
+
+.corner-bracket {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-color: black;
+}
+
+.corner-tl {
+  top: 20px;
+  left: 20px;
+  border-top: 2px solid;
+  border-left: 2px solid;
+}
+
+.corner-tr {
+  top: 20px;
+  right: 20px;
+  border-top: 2px solid;
+  border-right: 2px solid;
+}
+
+.corner-bl {
+  bottom: 20px;
+  left: 20px;
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+}
+
+.corner-br {
+  bottom: 20px;
+  right: 20px;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+}
+
+.brands-logo-bar {
+  position: relative;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 80px;
+}
+
+.brands-logo-sm {
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: -0.05em;
+}
+
+.brands-wordmark {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.brands-headline {
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.brands-toggle-wrapper {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.brands-mission {
+  max-width: 36rem;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.brands-mission p {
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.375;
+  letter-spacing: 0.05em;
+}
+
+.brands-mission p+p {
+  margin-top: 24px;
+}
+
+.brands-work {
+  width: 100%;
+  padding: 0 15px;
+  padding-bottom: 128px;
+}
+
+.brands-work h2 {
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  letter-spacing: -0.05em;
+}
+
+.brands-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.brands-card {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.brands-card img.bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s ease;
+}
+
+.brands-card:hover img.bg {
+  transform: scale(1.05);
+}
+
+.brands-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: background-color 0.5s ease;
+}
+
+.brands-card:hover .brands-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.brands-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 16px;
+}
+
+.brands-content img.logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 8px;
+  opacity: 0.9;
+  filter: invert(1);
+}
+
+.brands-content h3 {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 48rem;
+  line-height: 1.1;
+  letter-spacing: -0.05em;
+}
+
+@media (min-width: 1024px) {
+  .brands-hero {
+    padding-top: 0;
+    padding-bottom: 140px;
+  }
+
+  .brands-logo-bar {
+    padding: 0 60px;
+    margin-bottom: 120px;
+  }
+
+  .brands-headline {
+    font-size: 100px;
+  }
+
+  .brands-toggle-wrapper {
+    margin: 60px 0;
+  }
+
+  .brands-mission p {
+    font-size: 18px;
+  }
+
+  .brands-mission p+p {
+    margin-top: 32px;
+  }
+
+  .brands-work {
+    padding: 0 30px;
+    padding-bottom: 128px;
+  }
+
+  .brands-work h2 {
+    font-size: 22px;
+  }
+
+  .brands-grid {
+    gap: 4px;
+  }
+
+  .brands-card {
+    aspect-ratio: 21 / 8;
+    border-radius: 20px;
+  }
+
+  .brands-content img.logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 16px;
+  }
+
+  .brands-content h3 {
+    font-size: 40px;
+  }
+}

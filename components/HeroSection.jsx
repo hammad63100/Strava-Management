@@ -1,4 +1,3 @@
-import ToggleSwitch from "./ToggleSwitch";
 
 export default function HeroSection() {
   return (
@@ -19,7 +18,6 @@ export default function HeroSection() {
         >
           STRAVA MANAGEMENT
         </div>
-        <ToggleSwitch />
 
         <span className="absolute inset-0 grid grid-cols-[auto_auto] justify-between content-between pointer-events-none lg:hidden">
           <svg
