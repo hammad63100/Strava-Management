@@ -9,7 +9,7 @@ export default function ToggleSwitch({ inFlow = false }) {
 
   useEffect(() => {
     if (inFlow) return; // Don't handle scroll hiding if it's in flow
-    
+
     const handleScroll = () => {
       const footer = document.querySelector("footer");
       if (footer) {
@@ -50,7 +50,7 @@ export default function ToggleSwitch({ inFlow = false }) {
         style={{
           display: "flex",
           backgroundColor: "var(--dark)",
-          borderRadius: "40px",
+          borderRadius: "12px",
           padding: "4px",
           position: "relative",
           width: "fit-content",
@@ -67,7 +67,7 @@ export default function ToggleSwitch({ inFlow = false }) {
             left: active === "brands" ? "2px" : "50%",
             width: "calc(50% - 2px)",
             backgroundColor: "var(--offwhite)",
-            borderRadius: "30px",
+            borderRadius: "8px",
             transition: "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)",
           }}
         />

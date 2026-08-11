@@ -11,7 +11,7 @@ export default function HeroSection() {
             fontSize: "14px",
             fontWeight: "900",
             letterSpacing: "0.05em",
-            color: "#ffffff",
+            color: "#000000",
             textTransform: "uppercase",
           }}
         >
