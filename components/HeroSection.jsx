@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="HeroImageTrailAgence relative container h-[calc(100svh-60px)] lg:h-[100vh] grid place-items-center pt-[70px] text-white"
+      className="HeroImageTrailAgence relative container h-[calc(100svh-60px)] lg:h-[100vh] grid place-items-center pt-[70px] text-black"
     >
       <div className="absolute my-[15px] lg:my-[35px] inset-0 z-8">
         <div
@@ -138,7 +138,7 @@ export default function HeroSection() {
           </svg>
         </span>
       </div>
-      <h1 className="h1 text-center translate-y-[-50px] lg:translate-y-[0] text-white">
+      <h1 className="h1 text-center translate-y-[-50px] lg:translate-y-[0] text-black">
         We are
         <br />
         brand

@@ -7,8 +7,18 @@
   --font-sans: 'Neue Haas Grotesk Display Pro', 'Neue Haas Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-*, ::before, ::after, html, body, button, input, select, textarea {
+*,
+::before,
+::after,
+html,
+body,
+button,
+input,
+select,
+textarea {
   font-family: 'Neue Haas Grotesk Display Pro', 'Neue Haas Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  letter-spacing: 0.01em !important;
+  word-spacing: 0.02em !important;
 }
 
 .dark,

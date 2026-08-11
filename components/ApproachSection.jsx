@@ -1,7 +1,7 @@
 export default function ApproachSection() {
   return (
-    <div className="text-white">
-      <div className="border-b container h3 text-center grid gap-[10px] lg:gap-[25px] mt-20 lg:mt-[40px] mb-[25px] lg:mb-[35px] border-white/30 pb-[100px] px-[25px]">
+    <div className="text-black">
+      <div className="border-b container h3 text-center grid gap-[10px] lg:gap-[25px] mt-20 lg:mt-[40px] mb-[25px] lg:mb-[35px] border-black/30 pb-[100px] px-[25px]">
         <p className="uppercase text-[18px] lg:text-[22px] leading-relaxed font-medium">
           A Model Built on Alignment. <br className="hidden lg:block" />
           The quality of an Amazon business is shaped
