@@ -2,7 +2,7 @@ export default function ApproachSection() {
   return (
     <div className="text-black">
       <div className="border-b container h3 text-center grid gap-[10px] lg:gap-[25px] mt-20 lg:mt-[40px] mb-[25px] lg:mb-[35px] border-black/30 pb-[100px] px-[25px]">
-        <p className="uppercase text-[18px] lg:text-[22px] leading-relaxed font-medium">
+        <p className="uppercase text-[20px] lg:text-[22px] leading-relaxed font-medium">
           A Model Built on Alignment. <br className="hidden lg:block" />
           The quality of an Amazon business is shaped
           <br /> by the quality of the decisions made
@@ -20,7 +20,7 @@ export default function ApproachSection() {
             <h3 className="h3 mb-2">
               Experienced Oversight. Direct Accountability.
             </h3>
-            <p className="normal-case text-[15px] lg:text-[16px] leading-relaxed opacity-90 text-justify">
+            <p className="normal-case text-[18px] lg:text-[16px] leading-relaxed opacity-90 text-justify">
               Experienced oversight remains close to the market thesis, unit
               economics, capital allocation, inventory position, and operating
               performance. The founder receives judgment, not merely reporting.
@@ -29,7 +29,7 @@ export default function ApproachSection() {
           <br />
           <div className="pt-2">
             <h3 className="h3 mb-2">Capital Deserves Discipline</h3>
-            <p className="normal-case text-[15px] lg:text-[16px] leading-relaxed opacity-90 text-justify">
+            <p className="normal-case text-[18px] lg:text-[16px] leading-relaxed opacity-90 text-justify">
               Not every product should be launched. Not every market should be
               entered. Not every increase in advertising expenditure creates
               value.
@@ -46,7 +46,7 @@ export default function ApproachSection() {
           <br />
           <div className="pt-2">
             <h3 className="h3 mb-2">A Capped Roster</h3>
-            <p className="normal-case text-[15px] lg:text-[16px] leading-relaxed opacity-90 text-justify">
+            <p className="normal-case text-[18px] lg:text-[16px] leading-relaxed opacity-90 text-justify">
               Strava Management works with a limited number of portfolio brands
               at any one time.
               <br />

@@ -15,7 +15,8 @@ export default function ProcessSection() {
         "Trademark and brand-protection pathway",
         "Operating budget and launch roadmap",
       ],
-      image: "https://images.unsplash.com/photo-1664575602276-acd073f104c1?w=800&q=80",
+      image:
+        "https://images.unsplash.com/photo-1664575602276-acd073f104c1?w=800&q=80",
     },
     {
       number: "02",
@@ -33,7 +34,8 @@ export default function ProcessSection() {
         "Regulatory and supply-chain exposure",
         "Portfolio expansion potential",
       ],
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+      image:
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
     },
     {
       number: "03",
@@ -51,7 +53,8 @@ export default function ProcessSection() {
         "Sensitivity testing",
         "Launch-capital requirements",
       ],
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+      image:
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
     },
     {
       number: "04",
@@ -69,7 +72,8 @@ export default function ProcessSection() {
         "Pricing and offer architecture",
         "Initial inventory and launch sequencing",
       ],
-      image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80",
+      image:
+        "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80",
     },
     {
       number: "05",
@@ -89,7 +93,8 @@ export default function ProcessSection() {
         "Product-level reporting",
         "Expansion decisions",
       ],
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+      image:
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
     },
     {
       number: "06",
@@ -108,7 +113,8 @@ export default function ProcessSection() {
         "Reliable earnings history",
         "Transaction-readiness documentation",
       ],
-      image: "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=800&q=80",
+      image:
+        "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=800&q=80",
     },
   ];
 
@@ -117,7 +123,7 @@ export default function ProcessSection() {
       {/* Header section with image */}
       <div className="dimensions container pt-[20px] lg:pt-[30px] grid lg:gap-[30px] lg:grid-cols-12 items-center">
         <img
-          className="rounded-[15px] lg:rounded-[20px] lg:col-span-7 object-cover aspect-video mt-2 lg:mt-4"
+          className="rounded-[15px] lg:rounded-[20px] lg:col-span-7 object-cover aspect-video my-[20px] mx-[15px] lg:m-0 lg:mt-4"
           src="https://images.unsplash.com/photo-1542744094-3a31f272c490?w=1600&q=80"
           alt="The Process"
         />
@@ -132,7 +138,7 @@ export default function ProcessSection() {
       </div>
 
       {/* Mobile Sticky Title Bar */}
-      <div className="sticky top-[80px] lg:hidden py-[20px] text-center bg-[#7B7762] z-20 px-4 border-t-[1px] border-black">
+      <div className="mt-[20px] sticky top-[80px] lg:hidden py-[20px] text-center bg-[#7B7762] z-20 px-4 ">
         <h2 className="h2 font-bold text-black text-[28px]">THE PROCESS</h2>
         <p className="normal-case text-[16px] leading-relaxed mt-1 text-black/90 font-semibold">
           A Disciplined Sequence from Formation to Asset Value.
@@ -146,7 +152,7 @@ export default function ProcessSection() {
       >
         <ul
           id="services"
-          className="border-t-[1px] border-black dimensions_ul relative pt-6 space-y-[80px] lg:space-y-[150px]"
+          className="dimensions_ul relative pt-6 space-y-[80px] lg:space-y-[150px]"
         >
           {phases.map((phase, idx) => (
             <li
