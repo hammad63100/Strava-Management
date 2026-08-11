@@ -4,59 +4,51 @@ export default function BrandsSection() {
   const brands = [
     {
       id: 1,
-      name: "THE ICE CREAM THAT COMES FROM UP NORTH (FROM FRANCE)",
-      logo: "https://via.placeholder.com/150x150?text=LOGO",
+      title: "Tombstone 01",
+      category: "[CATEGORY]",
+      mandate: "Market Selection, Activation & Stewardship",
+      result: "Achieved [verified result] within [verified period].",
+      logo: "https://via.placeholder.com/150x150?text=T01",
       image:
         "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070",
+      video:
+        "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
     },
     {
       id: 2,
-      name: "CURLY, NOT SORRY",
-      logo: "https://via.placeholder.com/150x150?text=CURLY",
+      title: "Tombstone 02",
+      category: "[CATEGORY]",
+      mandate: "Margin Recovery & Performance Stewardship",
+      result:
+        "Improved contribution margin by [X] percentage points while maintaining [relevant commercial context].",
+      logo: "https://via.placeholder.com/150x150?text=T02",
       image:
         "https://images.unsplash.com/photo-1552699611-e2c2a32a9dd4?q=80&w=2069",
+      video: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
     },
     {
       id: 3,
-      name: "AGAINST WINDS & TIDES",
-      logo: "https://via.placeholder.com/150x150?text=LOGO",
+      title: "Tombstone 03",
+      category: "[CATEGORY]",
+      mandate: "Portfolio Expansion",
+      result:
+        "Expanded from [X] to [X] products while maintaining [verified profitability or operating metric].",
+      logo: "https://via.placeholder.com/150x150?text=T03",
       image:
         "https://images.unsplash.com/photo-1601058268499-e52658b8ebf8?q=80&w=2071",
+      video: "https://media.w3.org/2010/05/bunny/trailer.mp4",
     },
     {
       id: 4,
-      name: "LA PASSE DÉCISIVE",
-      logo: "https://via.placeholder.com/150x150?text=PSG",
+      title: "Tombstone 04",
+      category: "[CATEGORY]",
+      mandate: "Asset Enhancement & Exit Preparation",
+      result:
+        "Supported a transaction valued at [verified amount] after [verified operating improvements].",
+      logo: "https://via.placeholder.com/150x150?text=T04",
       image:
         "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?q=80&w=2070",
-    },
-    {
-      id: 5,
-      name: "TINDER, MAKES FIRE!",
-      logo: "https://via.placeholder.com/150x150?text=TINDER",
-      image:
-        "https://images.unsplash.com/photo-1518331647614-7a1f04cd34ce?q=80&w=2084",
-    },
-    {
-      id: 6,
-      name: "MAKING PEOPLE DREAM",
-      logo: "https://via.placeholder.com/150x150?text=LVMH",
-      image:
-        "https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?q=80&w=2071",
-    },
-    {
-      id: 7,
-      name: "AASAMIA, JUST A LITTLE MORE!",
-      logo: "https://via.placeholder.com/150x150?text=LOGO",
-      image:
-        "https://images.unsplash.com/photo-1556910103-1c02745a872f?q=80&w=2070",
-    },
-    {
-      id: 8,
-      name: "LA JETTOMANIE",
-      logo: "https://via.placeholder.com/150x150?text=VW",
-      image:
-        "https://images.unsplash.com/photo-1516733968668-dbdce39c4651?q=80&w=2070",
+      video: "https://res.cloudinary.com/demo/video/upload/elephants.mp4",
     },
   ];
 
@@ -156,23 +148,135 @@ export default function BrandsSection() {
         </div>
       </div>
 
-      {/* Work Section */}
+      {/* Portfolio Section */}
       <div className="brands-work">
-        <h2>WORK</h2>
+        {/* Portfolio Intro Header - Matching Site Design System */}
+        <div className="grid gap-[15px] lg:gap-x-[60px] lg:grid-cols-2 my-12 pb-6">
+          <h2 className="h2 lg:col-start-1 text-left uppercase text-[42px] lg:text-[64px] font-black tracking-tight text-black leading-none">
+            PORTFOLIO
+          </h2>
 
-        {/* Images Stacked with Tiny Gaps */}
+          <div className="lg:col-start-2 flex flex-col gap-4 font-bold">
+            <div>
+              <p className="uppercase text-[20px] lg:text-[26px] font-[900] leading-relaxed text-black mb-5 text-justify">
+                Select Portfolio Results.
+              </p>
+              <p className="uppercase text-[20px] lg:text-[26px] font-[900] leading-relaxed text-black mb-5 text-justify">
+                Proof should be presented as a deal sheet. Quietly. Clearly.
+                With verified numbers and sufficient commercial context.
+              </p>
+              <p className="uppercase text-[20px] lg:text-[26px] font-[900] leading-relaxed text-black mb-5 text-justify">
+                We assess results through more than revenue. The quality of
+                profit, strength of market position, efficiency of capital,
+                resilience of supply, and transferability of operations all
+                influence enterprise value.
+              </p>
+              <p className="uppercase text-[20px] lg:text-[26px] font-[900] leading-relaxed text-black mb-0 text-justify">
+                The examples below should be published only after each figure
+                has been verified.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Images Stacked with Gaps */}
         <div className="brands-grid">
           {brands.map((brand) => (
             <div key={brand.id} className="brands-card">
-              <img src={brand.image} alt={brand.name} className="bg" />
+              {brand.video ? (
+                <video
+                  src={brand.video}
+                  poster={brand.image}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  preload="auto"
+                  className="bg object-cover w-full h-full absolute inset-0"
+                />
+              ) : (
+                <img src={brand.image} alt={brand.title} className="bg" />
+              )}
               <div className="brands-overlay" />
 
-              <div className="brands-content">
-                <img src={brand.logo} alt="Logo" className="logo" />
-                <h3>{brand.name}</h3>
+              <div className="brands-content text-center flex flex-col items-center justify-center">
+                {brand.logo && (
+                  <img
+                    src={brand.logo}
+                    alt={`${brand.title} logo`}
+                    className="logo mb-3"
+                  />
+                )}
+                <h3 className="mb-4 text-center text-[26px] lg:text-[44px] font-[900] uppercase tracking-tight">
+                  {brand.title}
+                </h3>
+                <div className="text-[16px] lg:text-[22px] max-w-4xl flex flex-col gap-3 font-bold uppercase text-center items-center justify-center mx-auto">
+                  <p>
+                    <span className="font-[900]">Category:</span>{" "}
+                    {brand.category}
+                  </p>
+                  <p>
+                    <span className="font-[900]">Mandate:</span> {brand.mandate}
+                  </p>
+                  <p>
+                    <span className="font-[900]">Result:</span> {brand.result}
+                  </p>
+                </div>
               </div>
             </div>
           ))}
+          {/* 5th Card: Recommended Portfolio Metrics (Inside .brands-grid for identical height & alignment) */}
+          <div className="brands-card">
+            <video
+              src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+              preload="auto"
+              className="bg object-cover w-full h-full absolute inset-0"
+            />
+            {/* Light frosted overlay for clear BLACK text */}
+            <div className="absolute inset-0 bg-[#f4f3ef]/85 backdrop-blur-sm transition-colors duration-500 hover:bg-[#f4f3ef]/75 z-0" />
+
+            <div className="brands-content text-black text-center flex flex-col items-center justify-center p-6 lg:p-12 z-10">
+              <h3 className="mb-4 text-center text-[24px] lg:text-[38px] font-[900] uppercase tracking-tight text-black">
+                Recommended Portfolio Metrics
+              </h3>
+              <div className="text-[14px] lg:text-[20px] max-w-5xl flex flex-col gap-3 font-bold uppercase text-center items-center justify-center mx-auto text-black">
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-[14px] lg:text-[19px] font-[900] uppercase w-full mb-2">
+                  <li className="bg-black/5 backdrop-blur-md px-4 py-2.5 rounded-xl border border-black/15 text-black">
+                    Year-over-year profit growth
+                  </li>
+                  <li className="bg-black/5 backdrop-blur-md px-4 py-2.5 rounded-xl border border-black/15 text-black">
+                    Contribution-margin improvement
+                  </li>
+                  <li className="bg-black/5 backdrop-blur-md px-4 py-2.5 rounded-xl border border-black/15 text-black">
+                    Reduction in inefficient acquisition spend
+                  </li>
+                  <li className="bg-black/5 backdrop-blur-md px-4 py-2.5 rounded-xl border border-black/15 text-black">
+                    Organic market-position improvement
+                  </li>
+                  <li className="bg-black/5 backdrop-blur-md px-4 py-2.5 rounded-xl border border-black/15 text-black">
+                    Revenue expansion with stated time period
+                  </li>
+                  <li className="bg-black/5 backdrop-blur-md px-4 py-2.5 rounded-xl border border-black/15 text-black">
+                    Successful launch with break-even timeline
+                  </li>
+                  <li className="bg-black/5 backdrop-blur-md px-4 py-2.5 rounded-xl border border-black/15 text-black">
+                    Number of markets or products added
+                  </li>
+                  <li className="bg-black/5 backdrop-blur-md px-4 py-2.5 rounded-xl border border-black/15 text-black">
+                    Verified exit value
+                  </li>
+                </ul>
+                <p className="text-[12px] lg:text-[15px] font-[900] uppercase text-black/90 tracking-wide">
+                  Avoid publishing unsupported averages, fabricated exits, or
+                  performance claims without a clear source.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
