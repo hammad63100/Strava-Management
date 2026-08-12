@@ -3,12 +3,14 @@
 import React, { useState, useEffect } from "react";
 
 export default function TeamSection() {
+  const basePath = process.env.NODE_ENV === "production" ? "/Strava-Management" : "";
+
   // Generate team members 1 through 10
   const activists = Array.from({ length: 10 }, (_, i) => ({
     id: i + 1,
     name: `Team Member ${i + 1}`,
-    img: `/images/${i + 1}.jpeg`,
-    hoverImg: `/images/${i + 1}.webp`,
+    img: `${basePath}/images/${i + 1}.jpeg`,
+    hoverImg: `${basePath}/images/${i + 1}.webp`,
   }));
 
   const [hoveredIndex, setHoveredIndex] = useState(-1);
