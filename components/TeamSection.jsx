@@ -3,7 +3,8 @@
 import React, { useState, useEffect } from "react";
 
 export default function TeamSection() {
-  const basePath = process.env.NODE_ENV === "production" ? "/Strava-Management" : "";
+  const basePath =
+    process.env.NODE_ENV === "production" ? "/Strava-Management" : "";
 
   // Generate team members 1 through 10
   const activists = Array.from({ length: 10 }, (_, i) => ({
@@ -16,30 +17,30 @@ export default function TeamSection() {
   const [hoveredIndex, setHoveredIndex] = useState(-1);
 
   return (
-    <section className="pt-32 pb-40 lg:pt-40 lg:pb-48 bg-[#f4f3ef] overflow-hidden">
+    <section className="pt-20 pb-24 lg:pt-28 lg:pb-32 bg-[#f4f3ef] overflow-hidden">
       <style>{`
         /* Any other custom styles can go here if needed */
       `}</style>
 
       <div className="container mx-auto px-4 max-w-[1600px]">
         {/* Section Heading */}
-        <div className="mt-20 mb-45 lg:mt-32 lg:mb-32 text-left">
+        <div className="mt-12 mb-12 lg:mt-16 lg:mb-16 text-left">
           <h2 className="h2 uppercase text-[#111]">MEET OUR TEAM</h2>
         </div>
 
         {/* Responsive grid: 10 columns desktop */}
-        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-10 gap-3 sm:gap-4 md:gap-5 mt-20 mb-45 lg:mt-32 lg:mb-32">
+        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-10 gap-3 sm:gap-4 md:gap-5 mt-8 mb-16 lg:mt-12 lg:mb-20">
           {activists.map((member, i) => {
             const isActive = hoveredIndex === i;
 
             return (
               <div
                 key={i}
-                className="group relative cursor-pointer block overflow-hidden transition-transform duration-300 hover:scale-105 hover:z-10 bg-[#f4f3ef] mb-45 lg:mt-32 lg:mb-32"
+                className="group relative cursor-pointer block overflow-hidden transition-transform duration-300 hover:scale-105 hover:z-10 bg-[#f4f3ef]"
                 onMouseEnter={() => setHoveredIndex(i)}
                 onMouseLeave={() => setHoveredIndex(-1)}
                 title={member.name}
-                style={{ aspectRatio: "1 / 2" }}
+                style={{ aspectRatio: "3 / 4" }}
               >
                 {/* Static JPEG Image */}
                 <img
@@ -62,7 +63,7 @@ export default function TeamSection() {
 
                 {/* Corner brackets - Imported from Hero Section */}
                 <span
-                  className={`absolute inset-0 m-4 grid grid-cols-[auto_auto] justify-between content-between pointer-events-none transition-all duration-300 z-20 text-[#111] ${isActive ? "opacity-100 scale-100" : "opacity-0 scale-[1.05]"}`}
+                  className={` absolute inset-0 m-4 grid grid-cols-[auto_auto] justify-between content-between pointer-events-none transition-all duration-300 z-20 text-[#111] ${isActive ? "opacity-100 scale-100" : "opacity-0 scale-[1.05] "}`}
                 >
                   <svg
                     width="19"

@@ -1,6 +1,6 @@
 export default function FooterSection() {
   return (
-    <footer className="border-t-[1px] lg:border-t-0 pt-[15px] lg:pt-[0] pb-[10px] lg:pb-0 border-black px-[15px] grid gap-[25px] lg:gap-0 mx-auto lg:px-0">
+    <footer className="mt-16 lg:mt-28 border-t-[1px] lg:border-t-0 pt-[15px] lg:pt-[0] pb-[10px] lg:pb-0 border-black px-[15px] grid gap-[25px] lg:gap-0 mx-auto lg:px-0">
       <div>
         <div className="grid lg:grid-cols-[30vw_10px_1px_10px_auto] xl:grid-cols-[36vw_10px_1px_10px_auto] text-center lg:text-left">
           <div className="lg:col-start-5 lg:border-t-[1px] lg:border-b-[1px] lg:border-black lg:p-[35px] xl:p-[50px]">
