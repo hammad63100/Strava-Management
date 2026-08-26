@@ -15,7 +15,7 @@ export default function MainApp() {
   const { activeView, mounted } = useView();
 
   if (!mounted) {
-    return <div className="min-h-screen bg-[#f4f3ef]" />;
+    return <div className="min-h-screen bg-[#E6DEC8]" />;
   }
 
   return (

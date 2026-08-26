@@ -17,15 +17,31 @@ export default function TeamSection() {
   const [hoveredIndex, setHoveredIndex] = useState(-1);
 
   return (
-    <section className="pt-20 pb-24 lg:pt-28 lg:pb-32 bg-[#f4f3ef] overflow-hidden">
+    <section
+      className="team-section-custom overflow-hidden"
+      style={{ backgroundColor: "#E6DEC8", color: "#5A2132" }}
+    >
       <style>{`
-        /* Any other custom styles can go here if needed */
+        .team-section-custom {
+          padding-top: 40px;
+          padding-bottom: 50px;
+          margin: 0;
+        }
+        @media (min-width: 1024px) {
+          .team-section-custom {
+            padding-top: 60px;
+            padding-bottom: 70px;
+            margin: 0;
+          }
+        }
       `}</style>
 
       <div className="container mx-auto px-4 max-w-[1600px]">
         {/* Section Heading */}
-        <div className="mt-12 mb-12 lg:mt-16 lg:mb-16 text-left">
-          <h2 className="h2 uppercase text-[#111]">MEET OUR TEAM</h2>
+        <div className="mb-6 lg:mb-8 text-left">
+          <h2 className="h2 uppercase" style={{ color: "#5A2132" }}>
+            MEET OUR TEAM
+          </h2>
         </div>
 
         {/* Responsive grid: 10 columns desktop */}
@@ -36,11 +52,11 @@ export default function TeamSection() {
             return (
               <div
                 key={i}
-                className="group relative cursor-pointer block overflow-hidden transition-transform duration-300 hover:scale-105 hover:z-10 bg-[#f4f3ef]"
+                className="group relative cursor-pointer block overflow-hidden transition-transform duration-300 hover:scale-105 hover:z-10"
                 onMouseEnter={() => setHoveredIndex(i)}
                 onMouseLeave={() => setHoveredIndex(-1)}
                 title={member.name}
-                style={{ aspectRatio: "3 / 4" }}
+                style={{ aspectRatio: "3 / 4", backgroundColor: "#E6DEC8" }}
               >
                 {/* Static JPEG Image */}
                 <img
@@ -63,7 +79,8 @@ export default function TeamSection() {
 
                 {/* Corner brackets - Imported from Hero Section */}
                 <span
-                  className={` absolute inset-0 m-4 grid grid-cols-[auto_auto] justify-between content-between pointer-events-none transition-all duration-300 z-20 text-[#111] ${isActive ? "opacity-100 scale-100" : "opacity-0 scale-[1.05] "}`}
+                  className={` absolute inset-0 m-4 grid grid-cols-[auto_auto] justify-between content-between pointer-events-none transition-all duration-300 z-20 ${isActive ? "opacity-100 scale-100" : "opacity-0 scale-[1.05] "}`}
+                  style={{ color: "#5A2132" }}
                 >
                   <svg
                     width="19"

@@ -1,7 +1,10 @@
 export default function ApproachSection() {
   return (
-    <div className="text-black">
-      <div className="border-b container h3 text-center grid gap-[10px] lg:gap-[25px] mt-20 lg:mt-[40px] mb-[25px] lg:mb-[35px] border-black pb-[100px] px-[25px]">
+    <div style={{ color: "#E6DEC8" }}>
+      <div
+        className="border-b container h3 text-center grid gap-[10px] lg:gap-[25px] mt-20 lg:mt-[40px] mb-[25px] lg:mb-[35px] pb-[100px] px-[25px]"
+        style={{ borderBottomColor: "rgba(230, 222, 200, 0.35)", color: "#E6DEC8" }}
+      >
         <p className="uppercase text-[20px] lg:text-[22px] leading-relaxed font-medium">
           A Model Built on Alignment. <br className="hidden lg:block" />
           The quality of an Amazon business is shaped
@@ -12,8 +15,11 @@ export default function ApproachSection() {
       <section
         id="philosophy"
         className="Approche container my-[25px] grid gap-[15px] lg:gap-x-[60px] lg:grid-cols-2 lg:pb-[30px]"
+        style={{ color: "#E6DEC8" }}
       >
-        <h2 className="h2 lg:col-start-1">PHILOSOPHY</h2>
+        <h2 className="h2 lg:col-start-1" style={{ color: "#E6DEC8" }}>
+          PHILOSOPHY
+        </h2>
 
         <div className="lg:col-start-2 flex flex-col gap-10 lg:gap-12">
           <div>

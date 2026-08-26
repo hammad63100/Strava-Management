@@ -119,7 +119,11 @@ export default function ProcessSection() {
   ];
 
   return (
-    <div id="process" className="bg-[#7B7762] text-black pt-6 lg:pt-10">
+    <div
+      id="process"
+      className="pt-6 lg:pt-10"
+      style={{ backgroundColor: "#E6DEC8", color: "#5A2132" }}
+    >
       {/* Header section with image */}
       <div className="dimensions container pt-[20px] lg:pt-[30px] grid lg:gap-[30px] lg:grid-cols-12 items-center">
         <img
@@ -128,19 +132,33 @@ export default function ProcessSection() {
           alt="The Process"
         />
         <div className="hidden lg:block lg:col-span-5 py-[30px] lg:py-0 text-left">
-          <h2 className="h2 font-bold tracking-tight text-black text-[32px] lg:text-[42px]">
+          <h2
+            className="h2 font-bold tracking-tight text-[32px] lg:text-[42px]"
+            style={{ color: "#5A2132" }}
+          >
             THE PROCESS
           </h2>
-          <p className="normal-case text-[20px] lg:text-[24px] leading-relaxed mt-2 text-black/90 font-semibold">
+          <p
+            className="normal-case text-[20px] lg:text-[24px] leading-relaxed mt-2 font-semibold"
+            style={{ color: "#5A2132", opacity: 0.9 }}
+          >
             A Disciplined Sequence from Formation to Asset Value.
           </p>
         </div>
       </div>
 
       {/* Mobile Sticky Title Bar */}
-      <div className="mt-[20px] sticky top-[80px] lg:hidden py-[20px] text-center bg-[#7B7762] z-20 px-4 ">
-        <h2 className="h2 font-bold text-black text-[28px]">THE PROCESS</h2>
-        <p className="normal-case text-[16px] leading-relaxed mt-1 text-black/90 font-semibold">
+      <div
+        className="mt-[20px] sticky top-[80px] lg:hidden py-[20px] text-center z-20 px-4"
+        style={{ backgroundColor: "#E6DEC8" }}
+      >
+        <h2 className="h2 font-bold text-[28px]" style={{ color: "#5A2132" }}>
+          THE PROCESS
+        </h2>
+        <p
+          className="normal-case text-[16px] leading-relaxed mt-1 font-semibold"
+          style={{ color: "#5A2132", opacity: 0.9 }}
+        >
           A Disciplined Sequence from Formation to Asset Value.
         </p>
       </div>
@@ -157,34 +175,47 @@ export default function ProcessSection() {
           {phases.map((phase, idx) => (
             <li
               key={phase.number}
-              className="auto-rows-max min-h-[380px] h-auto sticky relative py-6 lg:py-10 px-6 lg:px-10 text-black grid grid-cols-2 lg:grid-cols-[24%_32%_23%_auto] lg:gap-[20px] rounded-none border-t-[1px] border-black"
+              className="auto-rows-max min-h-[380px] h-auto sticky relative py-6 lg:py-10 px-6 lg:px-10 grid grid-cols-2 lg:grid-cols-[24%_32%_23%_auto] lg:gap-[20px] rounded-none"
               style={{
                 top: `${100 + idx * 80}px`,
-                backgroundColor: "#7B7762",
-                borderTop: "1px solid #000000",
+                backgroundColor: "#E6DEC8",
+                color: "#5A2132",
+                borderTop: "1px solid rgba(90, 33, 50, 0.35)",
                 opacity: 1,
                 zIndex: 10 + idx,
               }}
             >
               {/* Col 1: Phase Title */}
               <div className="flex flex-col lg:grid lg:col-span-3 lg:grid-cols-[29%_39%_29%] leading-[1.1] gap-1 lg:gap-[20px]">
-                <span className="h3 mb-4 font-bold text-[20px] lg:text-[24px] text-black">
+                <span
+                  className="h3 mb-4 font-bold text-[20px] lg:text-[24px]"
+                  style={{ color: "#5A2132" }}
+                >
                   {phase.title}
                 </span>
               </div>
 
               {/* Col 2: Question & Foundational Quote */}
               <div className="col-span-2 col-start-1 lg:col-start-2 lg:row-start-2 lg:col-span-1 flex flex-col justify-between gap-6 py-[15px] lg:py-0 lg:pr-[30px]">
-                <span className="h4 lg:py-0 font-medium text-[17px] lg:text-[21px] text-black leading-snug">
+                <span
+                  className="h4 lg:py-0 font-medium text-[17px] lg:text-[21px] leading-snug"
+                  style={{ color: "#5A2132" }}
+                >
                   {phase.question}
                 </span>
-                <p className="text-[15px] lg:text-[17px] italic text-black/85 font-bold leading-relaxed">
+                <p
+                  className="text-[15px] lg:text-[17px] italic font-bold leading-relaxed"
+                  style={{ color: "#5A2132", opacity: 0.85 }}
+                >
                   {phase.summary}
                 </p>
               </div>
 
               {/* Col 3: Bullet points */}
-              <div className="col-span-2 lg:col-start-3 lg:row-start-2 lg:col-span-1 uppercase lg:self-end text-[15px] lg:text-[17px] text-black/90 font-bold">
+              <div
+                className="col-span-2 lg:col-start-3 lg:row-start-2 lg:col-span-1 uppercase lg:self-end text-[15px] lg:text-[17px] font-bold"
+                style={{ color: "#5A2132", opacity: 0.9 }}
+              >
                 <ul className="space-y-1.5 list-none">
                   {phase.bullets.map((bullet, bIdx) => (
                     <li key={bIdx} className="leading-snug">

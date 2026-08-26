@@ -1,6 +1,9 @@
 import "./BrandsSection.css";
 
 export default function BrandsSection() {
+  const basePath =
+    process.env.NODE_ENV === "production" ? "/Strava-Management" : "";
+
   const brands = [
     {
       id: 1,
@@ -55,37 +58,37 @@ export default function BrandsSection() {
   return (
     <div className="brands-section">
       {/* Top Header Section */}
-      <div className="brands-hero relative container">
+      <div className="brands-hero relative container" style={{ color: "#5A2132" }}>
         {/* Top Header Container with Wordmark and SVG Corner Brackets matching Agency Hero */}
         <div className="absolute my-[15px] lg:my-[35px] inset-0 z-10 pointer-events-none">
           <div
-            className="pointer-events-none absolute w-full text-center mt-[7px] lg:mt-[5px]"
+            className="pointer-events-none absolute"
             style={{
-              fontSize: "14px",
-              fontWeight: "900",
-              letterSpacing: "0.05em",
-              color: "#1B1B1B",
-              textTransform: "uppercase",
+              top: "0px",
+              left: "0px",
+              display: "flex",
+              alignItems: "center",
+              paddingTop: "0px",
             }}
           >
-            STRAVA MANAGEMENT
+            <img
+              src={`${basePath}/images/footerlogo.png`}
+              alt="Strava Management"
+              style={{
+                height: "52px",
+                width: "auto",
+                maxHeight: "60px",
+                objectFit: "contain",
+                display: "block",
+              }}
+            />
           </div>
 
-          <span className="absolute inset-0 grid grid-cols-[auto_auto] justify-between content-between pointer-events-none">
-            <svg
-              className="lg:opacity-0"
-              width="19"
-              height="19"
-              viewBox="0 0 19 19"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0 18L14 18M18 14L18 0"
-                stroke="currentColor"
-                strokeMiterlimit="10"
-              />
-            </svg>
+          <span
+            className="absolute inset-0 grid grid-cols-[auto_auto] justify-between content-between pointer-events-none"
+            style={{ color: "#5A2132" }}
+          >
+            <div style={{ width: "19px", height: "19px", opacity: 0 }} />
             <svg
               className=""
               width="19"
@@ -131,17 +134,17 @@ export default function BrandsSection() {
           </span>
         </div>
 
-        <h1 className="brands-headline">
+        <h1 className="brands-headline" style={{ color: "#5A2132" }}>
           THE ERA <br /> OF BRANDS <br /> IN MOTION <br /> HAS ARRIVED.
         </h1>
 
-        <div className="brands-mission">
-          <p>
+        <div className="brands-mission" style={{ color: "#5A2132" }}>
+          <p style={{ color: "#5A2132" }}>
             ESTABLISHING AGILE <br />
             AND RESPONSIBLE BRANDS <br />
             FOR LASTING SUCCESS.
           </p>
-          <p>
+          <p style={{ color: "#5A2132" }}>
             ENERGIZING THEM CONSTANTLY <br />
             TO FACE TODAY'S CHALLENGES.
           </p>
@@ -149,29 +152,44 @@ export default function BrandsSection() {
       </div>
 
       {/* Portfolio Section */}
-      <div className="brands-work">
+      <div className="brands-work" style={{ color: "#5A2132" }}>
         {/* Portfolio Intro Header - Matching Site Design System */}
         <div className="grid gap-[15px] lg:gap-x-[60px] lg:grid-cols-2 my-12 pb-6">
-          <h2 className="h2 lg:col-start-1 text-left uppercase text-[42px] lg:text-[64px] font-black tracking-tight text-black leading-none">
+          <h2
+            className="h2 lg:col-start-1 text-left uppercase text-[42px] lg:text-[64px] font-black tracking-tight leading-none"
+            style={{ color: "#5A2132" }}
+          >
             PORTFOLIO
           </h2>
 
-          <div className="lg:col-start-2 flex flex-col gap-4 font-bold">
+          <div className="lg:col-start-2 flex flex-col gap-4 font-bold" style={{ color: "#5A2132" }}>
             <div>
-              <p className="uppercase text-[20px] lg:text-[26px] font-[900] leading-relaxed text-black mb-5 text-justify">
+              <p
+                className="uppercase text-[20px] lg:text-[26px] font-[900] leading-relaxed mb-5 text-justify"
+                style={{ color: "#5A2132" }}
+              >
                 Select Portfolio Results.
               </p>
-              <p className="uppercase text-[20px] lg:text-[26px] font-[900] leading-relaxed text-black mb-5 text-justify">
+              <p
+                className="uppercase text-[20px] lg:text-[26px] font-[900] leading-relaxed mb-5 text-justify"
+                style={{ color: "#5A2132" }}
+              >
                 Proof should be presented as a deal sheet. Quietly. Clearly.
                 With verified numbers and sufficient commercial context.
               </p>
-              <p className="uppercase text-[20px] lg:text-[26px] font-[900] leading-relaxed text-black mb-5 text-justify">
+              <p
+                className="uppercase text-[20px] lg:text-[26px] font-[900] leading-relaxed mb-5 text-justify"
+                style={{ color: "#5A2132" }}
+              >
                 We assess results through more than revenue. The quality of
                 profit, strength of market position, efficiency of capital,
                 resilience of supply, and transferability of operations all
                 influence enterprise value.
               </p>
-              <p className="uppercase text-[20px] lg:text-[26px] font-[900] leading-relaxed text-black mb-0 text-justify">
+              <p
+                className="uppercase text-[20px] lg:text-[26px] font-[900] leading-relaxed mb-0 text-justify"
+                style={{ color: "#5A2132" }}
+              >
                 The examples below should be published only after each figure
                 has been verified.
               </p>
@@ -236,41 +254,112 @@ export default function BrandsSection() {
               preload="auto"
               className="bg object-cover w-full h-full absolute inset-0"
             />
-            {/* Light frosted overlay for clear BLACK text */}
-            <div className="absolute inset-0 bg-[#f4f3ef]/85 backdrop-blur-sm transition-colors duration-500 hover:bg-[#f4f3ef]/75 z-0" />
+            {/* Beige frosted overlay for clear MAROON text */}
+            <div
+              className="absolute inset-0 backdrop-blur-sm transition-colors duration-500 z-0"
+              style={{ backgroundColor: "rgba(230, 222, 200, 0.9)" }}
+            />
 
-            <div className="brands-content text-black text-center flex flex-col items-center justify-center p-6 lg:p-12 z-10">
-              <h3 className="mb-4 text-center text-[24px] lg:text-[38px] font-[900] uppercase tracking-tight text-black">
+            <div
+              className="brands-content text-center flex flex-col items-center justify-center p-6 lg:p-12 z-10"
+              style={{ color: "#5A2132" }}
+            >
+              <h3
+                className="mb-4 text-center text-[24px] lg:text-[38px] font-[900] uppercase tracking-tight"
+                style={{ color: "#5A2132" }}
+              >
                 Recommended Portfolio Metrics
               </h3>
-              <div className="text-[14px] lg:text-[20px] max-w-5xl flex flex-col gap-3 font-bold uppercase text-center items-center justify-center mx-auto text-black">
+              <div
+                className="text-[14px] lg:text-[20px] max-w-5xl flex flex-col gap-3 font-bold uppercase text-center items-center justify-center mx-auto"
+                style={{ color: "#5A2132" }}
+              >
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-[14px] lg:text-[19px] font-[900] uppercase w-full mb-2">
-                  <li className="bg-black/5 backdrop-blur-md px-4 py-2.5 rounded-xl border border-black/15 text-black">
+                  <li
+                    className="backdrop-blur-md px-4 py-2.5 rounded-xl"
+                    style={{
+                      backgroundColor: "rgba(90, 33, 50, 0.07)",
+                      border: "1px solid rgba(90, 33, 50, 0.2)",
+                      color: "#5A2132",
+                    }}
+                  >
                     Year-over-year profit growth
                   </li>
-                  <li className="bg-black/5 backdrop-blur-md px-4 py-2.5 rounded-xl border border-black/15 text-black">
+                  <li
+                    className="backdrop-blur-md px-4 py-2.5 rounded-xl"
+                    style={{
+                      backgroundColor: "rgba(90, 33, 50, 0.07)",
+                      border: "1px solid rgba(90, 33, 50, 0.2)",
+                      color: "#5A2132",
+                    }}
+                  >
                     Contribution-margin improvement
                   </li>
-                  <li className="bg-black/5 backdrop-blur-md px-4 py-2.5 rounded-xl border border-black/15 text-black">
+                  <li
+                    className="backdrop-blur-md px-4 py-2.5 rounded-xl"
+                    style={{
+                      backgroundColor: "rgba(90, 33, 50, 0.07)",
+                      border: "1px solid rgba(90, 33, 50, 0.2)",
+                      color: "#5A2132",
+                    }}
+                  >
                     Reduction in inefficient acquisition spend
                   </li>
-                  <li className="bg-black/5 backdrop-blur-md px-4 py-2.5 rounded-xl border border-black/15 text-black">
+                  <li
+                    className="backdrop-blur-md px-4 py-2.5 rounded-xl"
+                    style={{
+                      backgroundColor: "rgba(90, 33, 50, 0.07)",
+                      border: "1px solid rgba(90, 33, 50, 0.2)",
+                      color: "#5A2132",
+                    }}
+                  >
                     Organic market-position improvement
                   </li>
-                  <li className="bg-black/5 backdrop-blur-md px-4 py-2.5 rounded-xl border border-black/15 text-black">
+                  <li
+                    className="backdrop-blur-md px-4 py-2.5 rounded-xl"
+                    style={{
+                      backgroundColor: "rgba(90, 33, 50, 0.07)",
+                      border: "1px solid rgba(90, 33, 50, 0.2)",
+                      color: "#5A2132",
+                    }}
+                  >
                     Revenue expansion with stated time period
                   </li>
-                  <li className="bg-black/5 backdrop-blur-md px-4 py-2.5 rounded-xl border border-black/15 text-black">
+                  <li
+                    className="backdrop-blur-md px-4 py-2.5 rounded-xl"
+                    style={{
+                      backgroundColor: "rgba(90, 33, 50, 0.07)",
+                      border: "1px solid rgba(90, 33, 50, 0.2)",
+                      color: "#5A2132",
+                    }}
+                  >
                     Successful launch with break-even timeline
                   </li>
-                  <li className="bg-black/5 backdrop-blur-md px-4 py-2.5 rounded-xl border border-black/15 text-black">
+                  <li
+                    className="backdrop-blur-md px-4 py-2.5 rounded-xl"
+                    style={{
+                      backgroundColor: "rgba(90, 33, 50, 0.07)",
+                      border: "1px solid rgba(90, 33, 50, 0.2)",
+                      color: "#5A2132",
+                    }}
+                  >
                     Number of markets or products added
                   </li>
-                  <li className="bg-black/5 backdrop-blur-md px-4 py-2.5 rounded-xl border border-black/15 text-black">
+                  <li
+                    className="backdrop-blur-md px-4 py-2.5 rounded-xl"
+                    style={{
+                      backgroundColor: "rgba(90, 33, 50, 0.07)",
+                      border: "1px solid rgba(90, 33, 50, 0.2)",
+                      color: "#5A2132",
+                    }}
+                  >
                     Verified exit value
                   </li>
                 </ul>
-                <p className="text-[12px] lg:text-[15px] font-[900] uppercase text-black/90 tracking-wide">
+                <p
+                  className="text-[12px] lg:text-[15px] font-[900] uppercase tracking-wide"
+                  style={{ color: "#5A2132", opacity: 0.9 }}
+                >
                   Avoid publishing unsupported averages, fabricated exits, or
                   performance claims without a clear source.
                 </p>

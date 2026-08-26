@@ -1,38 +1,39 @@
 export default function HeroSection() {
+  const basePath =
+    process.env.NODE_ENV === "production" ? "/Strava-Management" : "";
+
   return (
     <section
       id="home"
-      className="HeroImageTrailAgence relative container h-[calc(100svh-60px)] lg:h-[100vh] grid place-items-center pt-[70px] text-black"
+      className="HeroImageTrailAgence relative container h-[calc(100svh-60px)] lg:h-[100vh] grid place-items-center pt-[70px]"
+      style={{ color: "#E6DEC8" }}
     >
       <div className="absolute my-[15px] lg:my-[35px] inset-0 z-8">
         <div
-          className="pointer-events-none absolute w-full text-center mt-[7px] lg:mt-[5px]"
+          className="pointer-events-none absolute"
           style={{
-            fontSize: "14px",
-            fontWeight: "900",
-            letterSpacing: "0.05em",
-            color: "#000000",
-            textTransform: "uppercase",
+            top: "0px",
+            left: "0px",
+            display: "flex",
+            alignItems: "center",
+            paddingTop: "0px",
           }}
         >
-          STRAVA MANAGEMENT
+          <img
+            src={`${basePath}/images/herologo.png`}
+            alt="Strava Management"
+            style={{
+              height: "52px",
+              width: "auto",
+              maxHeight: "60px",
+              objectFit: "contain",
+              display: "block",
+            }}
+          />
         </div>
 
         <span className="absolute inset-0 grid grid-cols-[auto_auto] justify-between content-between pointer-events-none lg:hidden">
-          <svg
-            className=""
-            width="19"
-            height="19"
-            viewBox="0 0 19 19"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M0 18L14 18M18 14L18 0"
-              stroke="currentColor"
-              strokeMiterlimit="10"
-            />
-          </svg>
+          <div style={{ width: "19px", height: "19px", opacity: 0 }} />
           <svg
             className=""
             width="19"
@@ -135,7 +136,10 @@ export default function HeroSection() {
           </svg>
         </span>
       </div>
-      <h1 className="h1 text-center translate-y-[-50px] lg:translate-y-[0] text-black">
+      <h1
+        className="h1 text-center translate-y-[-50px] lg:translate-y-[0]"
+        style={{ color: "#E6DEC8" }}
+      >
         We are
         <br />
         brand

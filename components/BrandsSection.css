@@ -1,12 +1,13 @@
 .brands-section {
-  background-color: #f4f3ef;
-  color: black;
+  background-color: #E6DEC8;
+  color: #5A2132;
   width: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .brands-hero {
-  background-color: #f4f3ef;
+  background-color: #E6DEC8;
+  color: #5A2132;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -21,6 +22,7 @@
 }
 
 .brands-headline {
+  color: #5A2132;
   font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
@@ -44,6 +46,7 @@
 }
 
 .brands-mission p {
+  color: #5A2132;
   font-size: 14px;
   font-weight: 900;
   text-transform: uppercase;
@@ -62,6 +65,7 @@
   margin-right: auto;
   padding: 0 16px;
   padding-bottom: 64px;
+  color: #5A2132;
 }
 
 @media (min-width: 1024px) {
@@ -72,6 +76,7 @@
 }
 
 .brands-work h2 {
+  color: #5A2132;
   font-size: 32px;
   font-weight: 900;
   text-transform: uppercase;
