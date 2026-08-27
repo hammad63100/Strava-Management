@@ -54,24 +54,27 @@ export default function FooterSection() {
                   href="#contact"
                 >
                   <svg
-                    className="mx-auto lg:mt-0 mt-[10px]"
-                    width="164"
-                    height="51"
-                    viewBox="0 0 164 51"
+                    className="mx-auto lg:mx-0 mt-[5px] w-[190px] lg:w-[230px] h-auto"
+                    viewBox="0 0 230 68"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <text
-                      x="50%"
-                      y="55%"
-                      dominantBaseline="middle"
                       textAnchor="middle"
                       fill="#5A2132"
-                      fontSize="13"
+                      fontSize="15"
                       fontWeight="900"
-                      letterSpacing="-0.02em"
+                      letterSpacing="-0.01em"
                     >
-                      WELCOME TO THE STRAVA
+                      <tspan x="50%" y="19">
+                        WELCOME
+                      </tspan>
+                      <tspan x="50%" y="39">
+                        TO THE
+                      </tspan>
+                      <tspan x="50%" y="59">
+                        STRAVA MANAGEMENT
+                      </tspan>
                     </text>
                   </svg>
                 </a>

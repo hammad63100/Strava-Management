@@ -5,15 +5,12 @@ export default function ProcessSection() {
       title: "Phase 01 — Foundation & Company Formation",
       question: "“ Is the business structured to operate correctly? ”",
       summary:
-        "“ We establish the legal and operating foundation before marketplace activity begins. Specialist legal, tax, banking, or compliance work may be delivered by qualified third parties where required. ”",
+        "“ We build the legal foundation first. Licensed specialists handle legal, tax, and compliance work where required. ”",
       bullets: [
-        "Founder objective and ownership structure",
-        "US company formation coordination — open to founders anywhere in the world, regardless of citizenship or residency",
-        "EIN and foundational documentation guidance",
-        "Business banking and payment-readiness coordination, including remote account opening for international founders",
-        "Amazon seller account preparation",
-        "Trademark and brand-protection pathway",
-        "Operating budget and launch roadmap",
+        "Company formation — any nationality, any residency",
+        "EIN, banking & payment setup — remote-friendly",
+        "Seller account & trademark pathway",
+        "Operating budget & launch roadmap",
       ],
       image:
         "https://images.unsplash.com/photo-1664575602276-acd073f104c1?w=800&q=80",
@@ -21,18 +18,13 @@ export default function ProcessSection() {
     {
       number: "02",
       title: "Phase 02 — Market Selection & Validation",
-      question: "“ Is there a credible market worth entering? ”",
+      question: "“ Is there a market worth entering? ”",
       summary:
-        "“ We look for a defendable commercial gap, not simply a product with high search volume. ”",
+        "“ We look for a defensible gap — not just high search volume. ”",
       bullets: [
-        "Category demand and maturity",
-        "Competitive concentration",
-        "Customer expectations and review barriers",
-        "Pricing architecture",
-        "Keyword and search behaviour",
-        "Differentiation potential",
-        "Regulatory and supply-chain exposure",
-        "Portfolio expansion potential",
+        "Demand, competition & differentiation",
+        "Pricing, keyword & search behavior",
+        "Regulatory and supply-chain risk",
       ],
       image:
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
@@ -40,18 +32,13 @@ export default function ProcessSection() {
     {
       number: "03",
       title: "Phase 03 — Viability Assessment",
-      question: "“ Can the opportunity produce a durable return? ”",
+      question: "“ Will this produce a durable return? ”",
       summary:
-        "“ The founder receives a clear recommendation: proceed, revise, or decline. ”",
+        "“ You get a clear call: proceed, revise, or decline. ”",
       bullets: [
-        "Landed-cost modelling",
-        "Amazon fee structure",
-        "Contribution-margin forecast",
-        "Customer acquisition assumptions",
-        "Inventory and working-capital requirements",
-        "Break-even analysis",
-        "Sensitivity testing",
-        "Launch-capital requirements",
+        "Landed cost, fees & contribution margin",
+        "Break-even & sensitivity testing",
+        "Capital requirements",
       ],
       image:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
@@ -59,18 +46,13 @@ export default function ProcessSection() {
     {
       number: "04",
       title: "Phase 04 — Brand Development & Activation",
-      question: "“ Can the brand communicate and convert? ”",
+      question: "“ Can the brand convert? ”",
       summary:
-        "“ We build the conversion infrastructure required for a disciplined market entry. ”",
+        "“ We build the infrastructure a disciplined launch needs. ”",
       bullets: [
-        "Brand positioning and naming coordination",
-        "Packaging and visual direction",
-        "Supplier and sample coordination",
-        "Search-led product-page strategy",
-        "Product photography and image direction",
-        "Copy, SEO, and enhanced brand content",
-        "Pricing and offer architecture",
-        "Initial inventory and launch sequencing",
+        "Naming, positioning & packaging",
+        "Supplier sourcing & samples",
+        "Listing copy, photography & pricing",
       ],
       image:
         "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80",
@@ -78,20 +60,13 @@ export default function ProcessSection() {
     {
       number: "05",
       title: "Phase 05 — Performance Stewardship",
-      question: "“ Can the business expand without weakening the economics? ”",
+      question: "“ Can it grow without weakening the economics? ”",
       summary:
-        "“ Spend is increased when the economics justify it. Revenue is not treated as success in isolation. ”",
+        "“ We grow spend when the economics earn it — not before. ”",
       bullets: [
-        "Advertising and demand stewardship",
-        "Organic search position",
-        "Conversion performance",
-        "Pricing integrity",
-        "Inventory oversight",
-        "Contribution margin",
-        "Competitive movement",
-        "Account health and marketplace compliance",
-        "Product-level reporting",
-        "Expansion decisions",
+        "Ad spend & organic search growth",
+        "Inventory, pricing & margin oversight",
+        "Account health & expansion calls",
       ],
       image:
         "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
@@ -99,19 +74,13 @@ export default function ProcessSection() {
     {
       number: "06",
       title: "Phase 06 — Asset Enhancement & Exit-Readiness",
-      question: "“ Is the business becoming more transferable and valuable? ”",
+      question: "“ Is the business becoming more valuable and transferable? ”",
       summary:
-        "“ Exit-readiness strengthens the company even when the founder intends to retain long-term ownership. ”",
+        "“ A business built to be sold is simply a better business to keep. ”",
       bullets: [
-        "Financial clarity",
-        "Documented operating procedures",
-        "Supplier resilience",
-        "Brand ownership",
-        "Inventory controls",
-        "Founder independence",
-        "Portfolio diversification",
-        "Reliable earnings history",
-        "Transaction-readiness documentation",
+        "Financial clarity & documented operations",
+        "Supplier resilience & founder independence",
+        "Exit-readiness, even if you're not selling",
       ],
       image:
         "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=800&q=80",
@@ -142,14 +111,20 @@ export default function ProcessSection() {
             className="normal-case text-[20px] lg:text-[24px] leading-relaxed mt-2 font-semibold"
             style={{ color: "#5A2132", opacity: 0.9 }}
           >
-            A Disciplined Sequence from Formation to Asset Value.
+            A Disciplined Sequence, From Formation to Asset Value.
+          </p>
+          <p
+            className="normal-case text-[16px] lg:text-[18px] leading-relaxed mt-2 font-medium"
+            style={{ color: "#5A2132", opacity: 0.85 }}
+          >
+            Six phases. Each answers a different question and sets up the next.
           </p>
         </div>
       </div>
 
       {/* Mobile Sticky Title Bar */}
       <div
-        className="mt-[20px] sticky top-[80px] lg:hidden py-[20px] text-center z-20 px-4"
+        className="mt-[20px] sticky top-0 lg:hidden py-[20px] text-center z-20 px-4"
         style={{ backgroundColor: "#E6DEC8" }}
       >
         <h2 className="h2 font-bold text-[28px]" style={{ color: "#5A2132" }}>
@@ -159,7 +134,13 @@ export default function ProcessSection() {
           className="normal-case text-[16px] leading-relaxed mt-1 font-semibold"
           style={{ color: "#5A2132", opacity: 0.9 }}
         >
-          A Disciplined Sequence from Formation to Asset Value.
+          A Disciplined Sequence, From Formation to Asset Value.
+        </p>
+        <p
+          className="normal-case text-[14px] leading-relaxed mt-1 font-medium"
+          style={{ color: "#5A2132", opacity: 0.85 }}
+        >
+          Six phases. Each answers a different question and sets up the next.
         </p>
       </div>
 
@@ -175,9 +156,9 @@ export default function ProcessSection() {
           {phases.map((phase, idx) => (
             <li
               key={phase.number}
-              className="auto-rows-max min-h-[380px] h-auto sticky relative py-6 lg:py-10 px-6 lg:px-10 grid grid-cols-2 lg:grid-cols-[24%_32%_23%_auto] lg:gap-[20px] rounded-none"
+              className="auto-rows-max min-h-[380px] h-auto sticky py-6 lg:py-10 px-6 lg:px-10 grid grid-cols-2 lg:grid-cols-[24%_32%_23%_auto] lg:gap-[20px] rounded-none"
               style={{
-                top: `${100 + idx * 80}px`,
+                top: "0px",
                 backgroundColor: "#E6DEC8",
                 color: "#5A2132",
                 borderTop: "1px solid rgba(90, 33, 50, 0.35)",
@@ -188,7 +169,7 @@ export default function ProcessSection() {
               {/* Col 1: Phase Title */}
               <div className="flex flex-col lg:grid lg:col-span-3 lg:grid-cols-[29%_39%_29%] leading-[1.1] gap-1 lg:gap-[20px]">
                 <span
-                  className="h3 mb-4 font-bold text-[20px] lg:text-[24px]"
+                  className="h3 mb-4 font-bold text-[22px] lg:text-[26px]"
                   style={{ color: "#5A2132" }}
                 >
                   {phase.title}
@@ -198,14 +179,14 @@ export default function ProcessSection() {
               {/* Col 2: Question & Foundational Quote */}
               <div className="col-span-2 col-start-1 lg:col-start-2 lg:row-start-2 lg:col-span-1 flex flex-col justify-between gap-6 py-[15px] lg:py-0 lg:pr-[30px]">
                 <span
-                  className="h4 lg:py-0 font-medium text-[17px] lg:text-[21px] leading-snug"
+                  className="h4 lg:py-0 font-semibold text-[19px] lg:text-[23px] leading-snug"
                   style={{ color: "#5A2132" }}
                 >
                   {phase.question}
                 </span>
                 <p
-                  className="text-[15px] lg:text-[17px] italic font-bold leading-relaxed"
-                  style={{ color: "#5A2132", opacity: 0.85 }}
+                  className="text-[16px] lg:text-[19px] italic font-semibold leading-relaxed"
+                  style={{ color: "#5A2132", opacity: 0.9 }}
                 >
                   {phase.summary}
                 </p>
@@ -213,10 +194,10 @@ export default function ProcessSection() {
 
               {/* Col 3: Bullet points */}
               <div
-                className="col-span-2 lg:col-start-3 lg:row-start-2 lg:col-span-1 uppercase lg:self-end text-[15px] lg:text-[17px] font-bold"
-                style={{ color: "#5A2132", opacity: 0.9 }}
+                className="col-span-2 lg:col-start-3 lg:row-start-2 lg:col-span-1 uppercase lg:self-end text-[16px] lg:text-[18px] font-bold"
+                style={{ color: "#5A2132", opacity: 0.95 }}
               >
-                <ul className="space-y-1.5 list-none">
+                <ul className="space-y-2 list-none">
                   {phase.bullets.map((bullet, bIdx) => (
                     <li key={bIdx} className="leading-snug">
                       ● {bullet}

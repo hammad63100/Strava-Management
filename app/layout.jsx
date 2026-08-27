@@ -3,8 +3,9 @@ import Navbar from "../components/Navbar";
 import AgentationProvider from "../components/AgentationProvider";
 
 export const metadata = {
-  title: "Strava Management - We are brand activists",
-  description: "60+ brand activists dedicated to serving brands",
+  title: "Amazon Portfolio Results | Strava Management",
+  description:
+    "Verified Amazon brand outcomes — commercial results, operating mandates, and performance metrics.",
 };
 
 export default function RootLayout({ children }) {

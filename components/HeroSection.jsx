@@ -136,16 +136,16 @@ export default function HeroSection() {
           </svg>
         </span>
       </div>
-      <h1
-        className="h1 text-center translate-y-[-50px] lg:translate-y-[0]"
+      <h2
+        className="h2 text-center translate-y-[-50px] lg:translate-y-[0] max-w-[1200px] mx-auto leading-[0.95]"
         style={{ color: "#E6DEC8" }}
       >
-        We are
-        <br />
-        brand
-        <br />
-        activists
-      </h1>
+        We build Amazon <br /> businesses
+        <br className="hidden sm:inline" /> the way <br /> private capital
+        <br className="hidden sm:inline" /> <br />
+        builds <br />
+        companies
+      </h2>
       <div className="imageTrailAgence hidden lg:block absolute inset-0 pointer-events-none">
         <img
           className="opacity-0 absolute aspect-[3/4] w-[180px] rounded-[5px] object-cover"
