@@ -50,12 +50,11 @@ export default function FooterSection() {
                 <a
                   rel="noopener"
                   className="hover:opacity-[0.8]"
-                  target="_blank"
-                  href="#contact"
+                  href="mailto:hello@stravamanagement.com?subject=Careers%20Inquiry"
                 >
                   <svg
-                    className="mx-auto lg:mx-0 mt-[5px] w-[190px] lg:w-[230px] h-auto"
-                    viewBox="0 0 230 68"
+                    className="cursor-pointer mx-auto lg:mx-0 mt-[5px] w-[190px] lg:w-[230px] h-auto"
+                    viewBox="0 0 230 48"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -66,14 +65,11 @@ export default function FooterSection() {
                       fontWeight="900"
                       letterSpacing="-0.01em"
                     >
-                      <tspan x="50%" y="19">
-                        WELCOME
+                      <tspan x="50%" y="20">
+                        JOIN OUR
                       </tspan>
-                      <tspan x="50%" y="39">
-                        TO THE
-                      </tspan>
-                      <tspan x="50%" y="59">
-                        STRAVA MANAGEMENT
+                      <tspan x="50%" y="42">
+                        TEAM
                       </tspan>
                     </text>
                   </svg>
@@ -112,25 +108,17 @@ export default function FooterSection() {
                 <p className="h6 font-bold mt-[15px] lg:mt-0">&nbsp;</p>
                 <p className="lg:col-span-3">&nbsp;</p>
                 <p className="h6 font-bold" style={{ color: "#5A2132" }}>
-                  New York
+                  Headquarters
                 </p>
                 <p
                   className="lg:col-span-3"
-                  style={{ color: "#5A2132", opacity: 0.9 }}
+                  style={{ color: "#5A2132", opacity: 0.9, lineHeight: "1.4" }}
                 >
-                  100 Broadway, Manhattan
-                </p>
-                <p
-                  className="h6 font-bold mt-[15px] lg:mt-0"
-                  style={{ color: "#5A2132" }}
-                >
-                  London
-                </p>
-                <p
-                  className="lg:col-span-3"
-                  style={{ color: "#5A2132", opacity: 0.9 }}
-                >
-                  20 Fenchurch St, City of London
+                  <span className="font-bold">Strava Management Inc.</span>
+                  <br />
+                  722 Grand Central Drive,
+                  <br />
+                  Trenton, NJ 08619-2074
                 </p>
               </div>
             </div>
@@ -188,22 +176,22 @@ export default function FooterSection() {
           </text>
         </svg>
         <div
-          className="lg:flex lg:justify-between text-[10px]"
+          className="lg:flex lg:justify-between items-center text-[11px] font-medium"
           style={{ color: "#5A2132", opacity: 0.85 }}
         >
           <p>
-            {" "}
-            ©2024{" "}
-            <a href="/en/legal" className="underline">
-              Legal &amp; Cookies
+            © 2026 Strava Management Inc. |{" "}
+            <a
+              href="https://www.stravamanagement.com"
+              className="underline hover:opacity-80"
+            >
+              www.stravamanagement.com
             </a>
           </p>
-          <p className="hidden lg:block">#Trends</p>
-          <p className="hidden lg:block">#Brand strategy</p>
-          <p className="hidden lg:block">#branding</p>
-          <p className="hidden lg:block">#Advertising</p>
-          <p className="hidden lg:block">#brand content</p>
-          <p className="hidden lg:block">#activations</p>
+          <p className="hidden lg:block">#AmazonEcosystem</p>
+          <p className="hidden lg:block">#BrandStrategy</p>
+          <p className="hidden lg:block">#GrowthManagement</p>
+          <p className="hidden lg:block">#PortfolioExcellence</p>
         </div>
       </div>
     </footer>

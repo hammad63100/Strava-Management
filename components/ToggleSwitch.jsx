@@ -14,8 +14,12 @@ export default function ToggleSwitch({ inFlow = false }) {
       const footer = document.querySelector("footer");
       if (footer) {
         const rect = footer.getBoundingClientRect();
-        // Hide when footer enters the viewport
-        if (rect.top <= window.innerHeight - 50) {
+        // Hide proactively before footer enters the viewport or when near page bottom
+        const isNearBottom =
+          window.innerHeight + window.scrollY >=
+          document.documentElement.scrollHeight - 150;
+
+        if (rect.top <= window.innerHeight + 80 || isNearBottom) {
           setHidden(true);
         } else {
           setHidden(false);
@@ -24,9 +28,20 @@ export default function ToggleSwitch({ inFlow = false }) {
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("resize", handleScroll, { passive: true });
+
+    // Check immediately and on microtasks/timeouts when view changes
     handleScroll();
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [inFlow]);
+    const t1 = setTimeout(handleScroll, 60);
+    const t2 = setTimeout(handleScroll, 200);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleScroll);
+      clearTimeout(t1);
+      clearTimeout(t2);
+    };
+  }, [inFlow, active]);
 
   const containerStyle = inFlow
     ? {
@@ -38,10 +53,13 @@ export default function ToggleSwitch({ inFlow = false }) {
         position: "fixed",
         bottom: "40px",
         left: "50%",
-        transform: hidden ? "translate(-50%, 160px)" : "translate(-50%, 0)",
-        transition: "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
+        transform: hidden ? "translate(-50%, 140px)" : "translate(-50%, 0)",
+        opacity: hidden ? 0 : 1,
+        visibility: hidden ? "hidden" : "visible",
+        pointerEvents: hidden ? "none" : "auto",
+        transition:
+          "transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, visibility 0.4s",
         zIndex: 9999,
-        pointerEvents: "auto",
       };
 
   return (

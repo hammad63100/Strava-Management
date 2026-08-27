@@ -22,38 +22,6 @@ export default function BrandsSection() {
     },
   ];
 
-  const tombstoneFields = [
-    {
-      field: "Category",
-      description:
-        'Product category. Can stay generic ("Home & Kitchen") if the brand needs anonymity.',
-    },
-    {
-      field: "Founder Profile",
-      description:
-        'Optional. E.g. "First-time founder, non-US passport, US-based." Published only with explicit sign-off.',
-    },
-    {
-      field: "Mandate",
-      description:
-        'Which phase(s) we ran — e.g. "Market Selection, Activation & Stewardship."',
-    },
-    {
-      field: "Result",
-      description:
-        "One verified, specific, time-bound outcome. No ranges, no rounding up.",
-    },
-    {
-      field: "Timeframe",
-      description: "The period the result covers — start to finish.",
-    },
-    {
-      field: "Verification Note",
-      description:
-        'Source of the number, e.g. "Verified via Seller Central reporting." Kept on file for audit.',
-    },
-  ];
-
   const portfolioMetrics = [
     "Year-over-year profit growth",
     "Contribution-margin improvement",
@@ -187,77 +155,9 @@ export default function BrandsSection() {
             </div>
           </div>
 
-          {/* Card 2: Tombstone Deal Sheet Architecture */}
+          {/* Card 2: Recommended Portfolio Metrics */}
           <div className="portfolio-card-asymmetric group">
             <div className="portfolio-bg-watermark">02</div>
-
-            <span className="portfolio-corner-brackets">
-              <svg width="20" height="20" viewBox="0 0 19 19" fill="none">
-                <path
-                  d="M0 18L14 18M18 14L18 0"
-                  stroke="currentColor"
-                  strokeMiterlimit="10"
-                />
-              </svg>
-              <svg width="20" height="20" viewBox="0 0 19 19" fill="none">
-                <path
-                  d="M19 18L5 18M1 14L1 0"
-                  stroke="currentColor"
-                  strokeMiterlimit="10"
-                />
-              </svg>
-              <svg width="20" height="20" viewBox="0 0 19 19" fill="none">
-                <path
-                  d="M0 1L14 1M18 5L18 19"
-                  stroke="currentColor"
-                  strokeMiterlimit="10"
-                />
-              </svg>
-              <svg width="20" height="20" viewBox="0 0 19 19" fill="none">
-                <path
-                  d="M19 1L5 1M1 5L1 19"
-                  stroke="currentColor"
-                  strokeMiterlimit="10"
-                />
-              </svg>
-            </span>
-
-            {/* Top-Left Section: Headings */}
-            <div className="portfolio-top-left z-10">
-              <div className="flex items-center gap-3 mb-4">
-                <span className="portfolio-badge">
-                  TOMBSTONE FORMAT — WHEN REAL DATA LANDS
-                </span>
-              </div>
-              <h3 className="portfolio-card-heading">
-                Deal Sheet Architecture
-              </h3>
-              <p className="text-[17px] sm:text-[20px] lg:text-[22px] font-semibold normal-case text-[#E6DEC8]/90 mt-3 tracking-wide max-w-2xl leading-snug">
-                Kept close to the original template, with one addition: a
-                founder-profile line to build authentic, relatable trust.
-              </p>
-            </div>
-
-            {/* Bottom-Right Section: Field Grid */}
-            <div className="portfolio-bottom-right lg:max-w-5xl z-10">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 w-full">
-                {tombstoneFields.map((item, idx) => (
-                  <div key={idx} className="deal-sheet-field-box">
-                    <h4 className="text-[20px] sm:text-[24px] lg:text-[27px] font-[900] uppercase text-[#E6DEC8] tracking-wide mb-2">
-                      {item.field}
-                    </h4>
-                    <p className="text-[16px] sm:text-[18px] lg:text-[20px] font-[800] text-[#E6DEC8]/95 leading-relaxed">
-                      {item.description}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          {/* Card 3: Recommended Portfolio Metrics */}
-          <div className="portfolio-card-asymmetric group">
-            <div className="portfolio-bg-watermark">03</div>
 
             <span className="portfolio-corner-brackets">
               <svg width="20" height="20" viewBox="0 0 19 19" fill="none">

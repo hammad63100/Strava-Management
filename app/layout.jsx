@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import AgentationProvider from "../components/AgentationProvider";
 
 export const metadata = {
+  metadataBase: new URL("https://www.stravamanagement.com"),
   title: "Amazon Portfolio Results | Strava Management",
   description:
     "Verified Amazon brand outcomes — commercial results, operating mandates, and performance metrics.",

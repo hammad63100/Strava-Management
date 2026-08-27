@@ -16,8 +16,8 @@ export default function IntroSection() {
         />
       </svg>
       <ul className="h5 flex gap-[25px]">
-        <li>New York</li>
-        <li>London</li>
+        <li>Trenton, NJ</li>
+        <li>United States</li>
       </ul>
     </div>
   );
