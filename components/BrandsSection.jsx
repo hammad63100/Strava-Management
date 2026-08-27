@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import FAQSection from "./FAQSection";
 import "./BrandsSection.css";
 
 export default function BrandsSection() {
@@ -221,6 +222,9 @@ export default function BrandsSection() {
             </div>
           </div>
         </div>
+
+        {/* Frequently Asked Questions Section */}
+        <FAQSection />
       </div>
     </div>
   );

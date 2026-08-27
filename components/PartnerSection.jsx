@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-export default function PartnerSectionPremium() {
+export default function PartnerSection() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -35,8 +35,8 @@ export default function PartnerSectionPremium() {
     <section
       id="partner"
       style={{
-        backgroundColor: "#5A2132",
-        color: "#E6DEC8",
+        backgroundColor: "#E6DEC8",
+        color: "#5A2132",
         position: "relative",
         overflow: "hidden",
         direction: "ltr",
@@ -71,14 +71,14 @@ export default function PartnerSectionPremium() {
           height: 560px;
           top: -180px;
           right: -120px;
-          background: radial-gradient(circle, rgba(230, 222, 200, 0.09) 0%, rgba(230, 222, 200, 0) 65%);
+          background: radial-gradient(circle, rgba(90, 33, 50, 0.08) 0%, rgba(90, 33, 50, 0) 65%);
         }
         .pp-glow-2 {
           width: 640px;
           height: 640px;
           bottom: -260px;
           left: -180px;
-          background: radial-gradient(circle, rgba(230, 222, 200, 0.07) 0%, rgba(230, 222, 200, 0) 65%);
+          background: radial-gradient(circle, rgba(90, 33, 50, 0.06) 0%, rgba(90, 33, 50, 0) 65%);
         }
 
         .pp-grain {
@@ -86,8 +86,8 @@ export default function PartnerSectionPremium() {
           inset: 0;
           z-index: 1;
           pointer-events: none;
-          opacity: 0.35;
-          mix-blend-mode: overlay;
+          opacity: 0.25;
+          mix-blend-mode: multiply;
           background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.28'/%3E%3C/svg%3E");
         }
 
@@ -114,14 +114,14 @@ export default function PartnerSectionPremium() {
           font-weight: 700;
           letter-spacing: 0.28em;
           text-transform: uppercase;
-          color: rgba(230, 222, 200, 0.75);
+          color: rgba(90, 33, 50, 0.75);
           margin-bottom: 26px;
         }
         .pp-eyebrow::before {
           content: "";
           width: 44px;
           height: 1px;
-          background: linear-gradient(to right, rgba(230, 222, 200, 0), rgba(230, 222, 200, 0.8));
+          background: linear-gradient(to right, rgba(90, 33, 50, 0), rgba(90, 33, 50, 0.8));
         }
 
         /* ─────────── Ornamental divider ─────────── */
@@ -131,17 +131,17 @@ export default function PartnerSectionPremium() {
           gap: 16px;
           padding-bottom: 54px;
           margin-bottom: 70px;
-          border-bottom: 1px solid rgba(230, 222, 200, 0.22);
+          border-bottom: 1px solid rgba(90, 33, 50, 0.25);
         }
         .pp-ornament-line {
           flex: 1;
           height: 1px;
-          background: linear-gradient(to right, rgba(230, 222, 200, 0.35), rgba(230, 222, 200, 0.06));
+          background: linear-gradient(to right, rgba(90, 33, 50, 0.35), rgba(90, 33, 50, 0.06));
         }
         .pp-ornament-diamond {
           width: 7px;
           height: 7px;
-          background: #E6DEC8;
+          background: #5A2132;
           transform: rotate(45deg);
           opacity: 0.85;
         }
@@ -155,17 +155,17 @@ export default function PartnerSectionPremium() {
           width: 100%;
           background: transparent;
           border: none;
-          border-bottom: 1px solid rgba(230, 222, 200, 0.3);
-          padding: 17px 0;
+          border-bottom: 1px solid rgba(90, 33, 50, 0.32);
+          padding: 19px 0;
           font-size: 16px;
           font-weight: 500;
-          color: #E6DEC8;
+          color: #5A2132;
           outline: none;
           font-family: inherit;
           transition: border-color 0.35s ease, padding-left 0.35s ease;
         }
         .pp-input::placeholder {
-          color: rgba(230, 222, 200, 0.45);
+          color: rgba(90, 33, 50, 0.45);
           font-weight: 400;
           transition: opacity 0.3s ease;
         }
@@ -175,7 +175,7 @@ export default function PartnerSectionPremium() {
           padding-left: 6px;
         }
         @media (min-width: 1024px) {
-          .pp-input, .pp-select { font-size: 17px; padding: 19px 0; }
+          .pp-input, .pp-select { font-size: 17px; padding: 23px 0; }
           .pp-input:focus, .pp-select:focus { padding-left: 8px; }
         }
 
@@ -186,8 +186,8 @@ export default function PartnerSectionPremium() {
           left: 0;
           bottom: 0;
           width: 100%;
-          height: 1px;
-          background: #E6DEC8;
+          height: 2px;
+          background: #5A2132;
           transform: scaleX(0);
           transform-origin: left;
           transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
@@ -200,18 +200,18 @@ export default function PartnerSectionPremium() {
           -moz-appearance: none;
           appearance: none;
           padding-right: 30px;
-          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 24 24' fill='none' stroke='%23E6DEC8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 24 24' fill='none' stroke='%235A2132' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
           background-repeat: no-repeat;
           background-position: right 2px center;
           background-size: 13px;
           transition: border-color 0.35s ease, padding-left 0.35s ease, background-color 0.35s ease;
         }
         .pp-select option {
-          background: #5A2132;
-          color: #E6DEC8;
+          background: #E6DEC8;
+          color: #5A2132;
         }
         .pp-select:invalid {
-          color: rgba(230, 222, 200, 0.45);
+          color: rgba(90, 33, 50, 0.45);
           font-weight: 400;
         }
 
@@ -226,8 +226,8 @@ export default function PartnerSectionPremium() {
           font-weight: 800;
           letter-spacing: 0.14em;
           text-transform: uppercase;
-          background-color: #E6DEC8;
-          color: #5A2132;
+          background-color: #5A2132;
+          color: #E6DEC8;
           border: none;
           border-radius: 999px;
           cursor: pointer;
@@ -242,14 +242,15 @@ export default function PartnerSectionPremium() {
           left: -80%;
           width: 55%;
           height: 100%;
-          background: linear-gradient(105deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.45) 50%, rgba(255,255,255,0) 100%);
+          background: linear-gradient(105deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.25) 50%, rgba(255,255,255,0) 100%);
           transform: skewX(-22deg);
           transition: left 0.65s cubic-bezier(0.22, 1, 0.36, 1);
         }
         .pp-submit-btn:hover {
-          background-color: #fff;
+          background-color: #421522;
+          color: #ffffff;
           transform: translateY(-3px);
-          box-shadow: 0 18px 45px rgba(0, 0, 0, 0.32);
+          box-shadow: 0 18px 45px rgba(90, 33, 50, 0.35);
         }
         .pp-submit-btn:hover::before { left: 130%; }
         .pp-submit-btn:active { transform: translateY(-1px); }
@@ -264,8 +265,8 @@ export default function PartnerSectionPremium() {
           position: relative;
           border-radius: 22px;
           padding: 38px 30px;
-          background: rgba(230, 222, 200, 0.035);
-          border: 1px solid rgba(230, 222, 200, 0.22);
+          background: rgba(90, 33, 50, 0.035);
+          border: 1px solid rgba(90, 33, 50, 0.25);
           overflow: hidden;
           transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
         }
@@ -276,20 +277,20 @@ export default function PartnerSectionPremium() {
           left: 24px;
           right: 24px;
           height: 1px;
-          background: linear-gradient(to right, rgba(230, 222, 200, 0), rgba(230, 222, 200, 0.7), rgba(230, 222, 200, 0));
+          background: linear-gradient(to right, rgba(90, 33, 50, 0), rgba(90, 33, 50, 0.7), rgba(90, 33, 50, 0));
           opacity: 0.55;
         }
         .pp-card:hover {
           transform: translateY(-4px);
-          background: rgba(230, 222, 200, 0.055);
-          border-color: rgba(230, 222, 200, 0.45);
-          box-shadow: 0 24px 55px rgba(0, 0, 0, 0.28);
+          background: rgba(90, 33, 50, 0.055);
+          border-color: rgba(90, 33, 50, 0.5);
+          box-shadow: 0 24px 55px rgba(90, 33, 50, 0.15);
         }
         @media (min-width: 1024px) {
           .pp-card { padding: 48px 40px; }
         }
 
-        .pp-corner { opacity: 0.7; transition: opacity 0.4s ease; }
+        .pp-corner { opacity: 0.75; transition: opacity 0.4s ease; }
         .pp-card:hover .pp-corner { opacity: 1; }
 
         /* ─────────── Main layout: text LEFT, form RIGHT ─────────── */
@@ -302,16 +303,28 @@ export default function PartnerSectionPremium() {
         @media (min-width: 1024px) {
           .pp-main-grid {
             grid-template-columns: 1fr 1fr;
-            column-gap: 80px;
+            column-gap: 70px;
           }
-          .pp-col-text { grid-column: 1; grid-row: 1; }
           .pp-col-form { grid-column: 2; grid-row: 1; }
+
+          /* ✅ Left text column pushed towards the right (closer to the form) */
+          .pp-col-text {
+            grid-column: 1;
+            grid-row: 1;
+            margin-left: auto;
+            max-width: 460px;
+            width: 100%;
+            align-self: stretch;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
         }
 
         /* ─────────── Numbered copy blocks ─────────── */
         .pp-block {
           position: relative;
-          padding-left: 58px;
+          padding-left: 36px;
         }
         .pp-block-num {
           position: absolute;
@@ -320,16 +333,16 @@ export default function PartnerSectionPremium() {
           font-size: 12px;
           font-weight: 800;
           letter-spacing: 0.18em;
-          color: rgba(230, 222, 200, 0.55);
+          color: rgba(90, 33, 50, 0.65);
           font-family: var(--font-serif);
         }
         .pp-block-num::after {
           content: "";
           display: block;
-          width: 26px;
+          width: 18px;
           height: 1px;
-          margin-top: 8px;
-          background: rgba(230, 222, 200, 0.4);
+          margin-top: 6px;
+          background: rgba(90, 33, 50, 0.45);
         }
       `}</style>
 
@@ -348,7 +361,7 @@ export default function PartnerSectionPremium() {
                 <h2
                   className="h2 lg:col-start-1 font-bold text-[38px] sm:text-[50px] lg:text-[66px] leading-[0.95]"
                   style={{
-                    color: "#E6DEC8",
+                    color: "#5A2132",
                     fontFamily: "var(--font-serif)",
                     letterSpacing: "-0.01em",
                   }}
@@ -361,7 +374,7 @@ export default function PartnerSectionPremium() {
                   <h3
                     className="font-bold text-[20px] sm:text-[24px] lg:text-[26px] leading-[1.2]"
                     style={{
-                      color: "#E6DEC8",
+                      color: "#5A2132",
                       fontFamily: "var(--font-sans)",
                     }}
                   >
@@ -369,7 +382,7 @@ export default function PartnerSectionPremium() {
                   </h3>
                   <p
                     className="normal-case font-normal text-[15px] lg:text-[17px] leading-[1.65] opacity-90"
-                    style={{ color: "#E6DEC8" }}
+                    style={{ color: "#5A2132" }}
                   >
                     You have the capital. What you don't have is time to learn
                     Amazon the hard way — or a team that already has.
@@ -381,13 +394,19 @@ export default function PartnerSectionPremium() {
 
           {/* ─── Persuasion Copy + Form Grid ─── */}
           <div className="pp-main-grid">
-            {/* Left Column: Copy */}
-            <div className="pp-col-text flex flex-col gap-10 lg:gap-14">
-              <div className="pp-block pp-reveal pp-delay-1">
+            {/* Left Column: Copy (vertically centered against form) */}
+            <div className="pp-col-text flex flex-col gap-10 lg:gap-12">
+              <div
+                className="pp-block pp-reveal pp-delay-1"
+                style={{
+                  borderBottom: "1px solid rgba(90, 33, 50, 0.22)",
+                  paddingBottom: "2px",
+                }}
+              >
                 <span className="pp-block-num">01</span>
                 <p
-                  className="normal-case text-[15px] lg:text-[17px] leading-[1.7] opacity-90"
-                  style={{ color: "#E6DEC8" }}
+                  className="normal-case text-[15px] lg:text-[17px] leading-[1.75] opacity-90"
+                  style={{ color: "#5A2132" }}
                 >
                   Most first-time founders stall right here: too many decisions,
                   no one to make the call. Which market. How much to invest. Who
@@ -399,8 +418,8 @@ export default function PartnerSectionPremium() {
               <div className="pp-block pp-reveal pp-delay-2">
                 <span className="pp-block-num">02</span>
                 <p
-                  className="normal-case text-[15px] lg:text-[17px] leading-[1.7] opacity-90"
-                  style={{ color: "#E6DEC8" }}
+                  className="normal-case text-[15px] lg:text-[17px] leading-[1.75] opacity-90"
+                  style={{ color: "#5A2132" }}
                 >
                   You don't need to become an Amazon expert. You need one
                   partner who already is — from the LLC to the P&L.
@@ -410,13 +429,13 @@ export default function PartnerSectionPremium() {
               <div
                 className="pp-reveal pp-delay-3"
                 style={{
-                  borderTop: "1px solid rgba(230, 222, 200, 0.25)",
+                  borderTop: "1px solid rgba(90, 33, 50, 0.25)",
                   paddingTop: "32px",
                 }}
               >
                 <p
                   className="font-bold text-[17px] lg:text-[19px] leading-[1.6]"
-                  style={{ color: "#E6DEC8", fontFamily: "var(--font-serif)" }}
+                  style={{ color: "#5A2132", fontFamily: "var(--font-serif)" }}
                 >
                   Tell us where you are. We'll tell you honestly whether there's
                   a credible business here, and what it would take to build it.
@@ -424,15 +443,18 @@ export default function PartnerSectionPremium() {
               </div>
 
               {/* Who This Is For */}
-              <div className="pp-card pp-reveal pp-delay-4">
+              <div
+                className="pp-card pp-reveal pp-delay-4 flex flex-col justify-center"
+                style={{ padding: "38px 36px" }}
+              >
                 {/* Corner Brackets */}
                 <span
                   className="absolute inset-0 pointer-events-none"
-                  style={{ color: "#E6DEC8" }}
+                  style={{ color: "#5A2132" }}
                 >
                   <svg
                     className="pp-corner"
-                    style={{ position: "absolute", top: "16px", left: "16px" }}
+                    style={{ position: "absolute", top: "18px", left: "18px" }}
                     width="19"
                     height="19"
                     viewBox="0 0 19 19"
@@ -447,7 +469,7 @@ export default function PartnerSectionPremium() {
                   </svg>
                   <svg
                     className="pp-corner"
-                    style={{ position: "absolute", top: "16px", right: "16px" }}
+                    style={{ position: "absolute", top: "18px", right: "18px" }}
                     width="19"
                     height="19"
                     viewBox="0 0 19 19"
@@ -464,8 +486,8 @@ export default function PartnerSectionPremium() {
                     className="pp-corner"
                     style={{
                       position: "absolute",
-                      bottom: "16px",
-                      left: "16px",
+                      bottom: "18px",
+                      left: "18px",
                     }}
                     width="19"
                     height="19"
@@ -483,8 +505,8 @@ export default function PartnerSectionPremium() {
                     className="pp-corner"
                     style={{
                       position: "absolute",
-                      bottom: "16px",
-                      right: "16px",
+                      bottom: "18px",
+                      right: "18px",
                     }}
                     width="19"
                     height="19"
@@ -500,20 +522,20 @@ export default function PartnerSectionPremium() {
                   </svg>
                 </span>
 
-                <div className="relative z-10">
-                  <div className="flex items-center gap-3.5 mb-5">
+                <div className="relative z-10 px-2 py-1">
+                  <div className="flex items-center gap-3 mb-4">
                     <span
-                      className="w-3.5 h-3.5 shrink-0"
+                      className="w-3 h-3 shrink-0"
                       style={{
-                        backgroundColor: "#E6DEC8",
+                        backgroundColor: "#5A2132",
                         transform: "rotate(45deg)",
                         borderRadius: "2px",
                       }}
                     />
                     <h4
-                      className="font-bold text-[18px] sm:text-[20px] lg:text-[22px]"
+                      className="font-bold text-[18px] sm:text-[20px] lg:text-[21px]"
                       style={{
-                        color: "#E6DEC8",
+                        color: "#5A2132",
                         fontFamily: "var(--font-sans)",
                         letterSpacing: "0.01em",
                       }}
@@ -522,15 +544,15 @@ export default function PartnerSectionPremium() {
                     </h4>
                   </div>
                   <p
-                    className="normal-case text-[15px] lg:text-[17px] leading-[1.7] opacity-90 mb-4"
-                    style={{ color: "#E6DEC8" }}
+                    className="normal-case text-[15px] lg:text-[16px] leading-[1.65] opacity-90 mb-3.5"
+                    style={{ color: "#5A2132" }}
                   >
                     Founders who want a real business: evidence-led decisions,
                     and an asset that can eventually run without them.
                   </p>
                   <p
-                    className="normal-case text-[14px] lg:text-[15px] leading-[1.65] opacity-70 italic"
-                    style={{ color: "#E6DEC8" }}
+                    className="normal-case text-[13px] sm:text-[14px] leading-[1.6] opacity-75 italic"
+                    style={{ color: "#5A2132" }}
                   >
                     Not a fit for speculative launches, or founders looking for
                     isolated tasks without a plan behind them.
@@ -550,7 +572,7 @@ export default function PartnerSectionPremium() {
                     <div
                       className="w-16 h-16 rounded-full flex items-center justify-center mb-2"
                       style={{
-                        border: "1.5px solid rgba(230, 222, 200, 0.55)",
+                        border: "1.5px solid rgba(90, 33, 50, 0.55)",
                       }}
                     >
                       <svg
@@ -558,7 +580,7 @@ export default function PartnerSectionPremium() {
                         height="26"
                         viewBox="0 0 24 24"
                         fill="none"
-                        stroke="#E6DEC8"
+                        stroke="#5A2132"
                         strokeWidth="2.5"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -569,7 +591,7 @@ export default function PartnerSectionPremium() {
                     <h3
                       className="font-bold text-[24px] lg:text-[28px]"
                       style={{
-                        color: "#E6DEC8",
+                        color: "#5A2132",
                         fontFamily: "var(--font-serif)",
                       }}
                     >
@@ -577,7 +599,7 @@ export default function PartnerSectionPremium() {
                     </h3>
                     <p
                       className="text-[15px] lg:text-[17px] leading-[1.7] opacity-90 max-w-[400px]"
-                      style={{ color: "#E6DEC8" }}
+                      style={{ color: "#5A2132" }}
                     >
                       We review every inquiry against our current capacity.
                       Where there's a fit, an account analyst will reach out to
@@ -709,34 +731,6 @@ export default function PartnerSectionPremium() {
                   </div>
                 </form>
               )}
-
-              {/* What Happens Next */}
-              <div
-                className="mt-10 lg:mt-14 pt-8"
-                style={{ borderTop: "1px solid rgba(230, 222, 200, 0.2)" }}
-              >
-                <h4
-                  className="font-bold text-[13px] lg:text-[14px] mb-3"
-                  style={{
-                    color: "#E6DEC8",
-                    fontFamily: "var(--font-sans)",
-                    letterSpacing: "0.22em",
-                    textTransform: "uppercase",
-                    opacity: 0.7,
-                  }}
-                >
-                  What Happens Next
-                </h4>
-                <p
-                  className="normal-case text-[14px] lg:text-[15px] leading-[1.7] opacity-75"
-                  style={{ color: "#E6DEC8" }}
-                >
-                  We review every inquiry against our current capacity. Where
-                  there's a fit, an account analyst sets up a call to walk
-                  through the business case. We only take on partnerships we can
-                  meaningfully improve.
-                </p>
-              </div>
             </div>
           </div>
         </div>
