@@ -9,6 +9,7 @@ import ExpertiseSection from "./ExpertiseSection";
 import ProcessSection from "./ProcessSection";
 import SolutionsSection from "./SolutionsSection";
 import TeamSection from "./TeamSection";
+import PartnerSection from "./PartnerSection";
 import FooterSection from "./FooterSection";
 import BrandsSection from "./BrandsSection";
 
@@ -45,6 +46,7 @@ export default function MainApp() {
                 <SolutionsSection />
               </div>
               <TeamSection />
+              <PartnerSection />
             </main>
           </div>
         </div>
