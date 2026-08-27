@@ -22,17 +22,123 @@ textarea {
   word-spacing: 0.02em;
 }
 
+/* ─── Heading font-family (serif) ─── */
 h1,
 h2,
+.h1,
+.h2 {
+  font-family: var(--font-serif) !important;
+  line-height: 1.05;
+}
+
 h3,
 h4,
-.h1,
-.h2,
 .h3,
-.h4,
+.h4 {
+  font-family: var(--font-serif) !important;
+  line-height: 1.2;
+}
+
 .font-serif,
 .serif-heading {
   font-family: var(--font-serif) !important;
+}
+
+/* ─── Type Scale ─── */
+/* H1 — Hero / Page Title */
+h1,
+.h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+@media (min-width: 1024px) {
+
+  h1,
+  .h1 {
+    font-size: 60px;
+  }
+}
+
+/* H2 — Section Heading */
+h2,
+.h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+@media (min-width: 1024px) {
+
+  h2,
+  .h2 {
+    font-size: 44px;
+  }
+}
+
+/* H3 — Card / Phase Title */
+h3,
+.h3 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--font-sans) !important;
+}
+
+@media (min-width: 1024px) {
+
+  h3,
+  .h3 {
+    font-size: 24px;
+  }
+}
+
+/* H4 — Sub-labels */
+h4,
+.h4 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--font-sans) !important;
+}
+
+@media (min-width: 1024px) {
+
+  h4,
+  .h4 {
+    font-size: 20px;
+  }
+}
+
+/* Body text */
+p,
+li,
+span,
+a {
+  line-height: 1.65;
+}
+
+/* Small / Labels / Eyebrow — CAPS okay, add letter-spacing */
+.h5,
+.h6,
+.eyebrow-label {
+  font-size: 13px;
+  font-weight: 700;
+  font-family: var(--font-sans) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+@media (min-width: 1024px) {
+
+  .h5,
+  .h6,
+  .eyebrow-label {
+    font-size: 14px;
+  }
+}
+
+/* ─── CAPS helper: any uppercase text gets extra letter-spacing ─── */
+[style*="text-transform: uppercase"],
+.uppercase {
+  letter-spacing: 0.04em;
 }
 
 .dark,

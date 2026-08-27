@@ -34,7 +34,7 @@ export default function ExpertiseSection() {
     <div className="Expertises" style={{ color: "#E6DEC8" }}>
       <div className="container mt-[50px] mb-[20px]">
         <h2
-          className="h2 text-center"
+          className="h2 text-center font-bold"
           style={{ color: "#E6DEC8", fontFamily: "var(--font-serif)" }}
         >
           The Vendor and Partner Gap
@@ -52,10 +52,10 @@ export default function ExpertiseSection() {
         >
           <CardBorderSVG />
           <div className="relative z-10 flex flex-col h-full justify-center lg:justify-between text-center lg:text-left gap-4 lg:gap-0">
-            <p className="h4 font-bold text-[20px] lg:text-[14px] xl:text-[18px]">
+            <p className="h4 font-bold text-[18px] lg:text-[14px] xl:text-[17px] leading-[1.65]">
               Completes assigned tasks.
             </p>
-            <p className="h5 text-[16px] lg:text-[12px] xl:text-[15px] underline underline-offset-4 decoration-1">
+            <p className="h5 text-[15px] lg:text-[12px] xl:text-[14px] underline underline-offset-4 decoration-1 leading-[1.65]">
               Examines the commercial consequence of each task.
             </p>
           </div>
@@ -150,14 +150,14 @@ export default function ExpertiseSection() {
         </h3>
         <br />
         <h2
-          className="h2 mb-6"
+          className="h2 mb-6 font-bold"
           style={{ color: "#E6DEC8", fontFamily: "var(--font-serif)" }}
         >
           Transparent Alignment
         </h2>
         <br />
         <p
-          className="normal-case text-[15px] lg:text-[16px] leading-relaxed opacity-90"
+          className="normal-case text-[15px] lg:text-[17px] leading-[1.65] opacity-90"
           style={{ color: "#E6DEC8" }}
         >
           Before an operating partnership begins, we establish the founder's

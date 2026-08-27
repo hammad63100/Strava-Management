@@ -136,13 +136,13 @@ export default function SolutionsSection() {
           font-family: var(--font-serif);
           font-size: 24px;
           font-weight: 800;
-          text-transform: uppercase;
-          line-height: 1.1;
+          line-height: 1.2;
           letter-spacing: -0.02em;
           color: #E6DEC8;
           text-align: left;
           margin-top: 15px;
           max-width: 90%;
+          text-transform: none;
         }
         @media (min-width: 1024px) {
           .solution-card-heading {
@@ -236,13 +236,13 @@ export default function SolutionsSection() {
             </h2>
             <div className="lg:col-start-2 flex flex-col gap-6 lg:gap-8">
               <h3
-                className="uppercase font-bold text-[22px] sm:text-[26px] lg:text-[30px] leading-snug"
-                style={{ color: "#E6DEC8", fontFamily: "var(--font-serif)" }}
+                className="font-bold text-[20px] sm:text-[24px] lg:text-[26px] leading-[1.2]"
+                style={{ color: "#E6DEC8", fontFamily: "var(--font-sans)" }}
               >
-                ONE OPERATING PARTNER. EVERY STAGE OF THE BUSINESS.
+                One Operating Partner. Every Stage of the Business.
               </h3>
               <p
-                className="normal-case font-medium text-[17px] lg:text-[19px] leading-relaxed opacity-90 text-justify"
+                className="normal-case font-normal text-[15px] lg:text-[17px] leading-[1.65] opacity-90 text-justify"
                 style={{ color: "#E6DEC8" }}
               >
                 We coordinate the work founders usually piece together themselves.
@@ -415,17 +415,17 @@ export default function SolutionsSection() {
               style={{ backgroundColor: "#E6DEC8" }}
             />
             <h4
-              className="uppercase font-bold text-[20px] sm:text-[24px] lg:text-[28px] tracking-wide"
-              style={{ color: "#E6DEC8", fontFamily: "var(--font-serif)" }}
+              className="font-bold text-[18px] sm:text-[22px] lg:text-[24px]"
+              style={{ color: "#E6DEC8", fontFamily: "var(--font-sans)", letterSpacing: "0.04em" }}
             >
-              IMPORTANT SCOPE NOTE
+              Important Scope Note
             </h4>
           </div>
 
           {/* Bottom Right: Text Paragraph */}
           <div className="relative z-10 mt-auto pt-8 flex justify-end w-full">
             <p
-              className="normal-case text-[16px] sm:text-[18px] lg:text-[20px] font-medium leading-relaxed opacity-90 text-right max-w-[850px]"
+              className="normal-case text-[15px] sm:text-[16px] lg:text-[18px] font-normal leading-[1.65] opacity-90 text-right max-w-[850px]"
               style={{ color: "#E6DEC8" }}
             >
               We're your coordination partner. Legal, tax, banking, and other

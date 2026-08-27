@@ -20,7 +20,7 @@ export default function FooterSection() {
           >
             <div className="lg:grid lg:grid-cols-6 lg:grid-rows-[auto_100px_auto] xl:grid-rows-[auto_200px_auto]">
               <div className="lg:col-span-3">
-                <p className="text-[16px]" style={{ color: "#5A2132" }}>
+                <p className="text-[14px] lg:text-[15px]" style={{ color: "#5A2132", lineHeight: "1.65" }}>
                   Send us a brief
                 </p>
                 <a href="mailto:hello@stravamanagement.com" className="h4">
@@ -44,7 +44,7 @@ export default function FooterSection() {
                 </a>
               </div>
               <div className="border-[2] my-[35px] lg:grid lg:grid-cols-2 lg:my-0 lg:col-span-3">
-                <p className="text-[16px]" style={{ color: "#5A2132" }}>
+                <p className="text-[14px] lg:text-[15px]" style={{ color: "#5A2132", lineHeight: "1.65" }}>
                   We're hiring
                 </p>
                 <a

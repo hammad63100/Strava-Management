@@ -40,10 +40,10 @@ export default function TeamSection() {
         {/* Section Heading */}
         <div className="mb-6 lg:mb-8 text-left">
           <h2
-            className="h2 uppercase font-bold"
+            className="h2 font-bold"
             style={{ color: "#5A2132", fontFamily: "var(--font-serif)" }}
           >
-            MEET OUR TEAM
+            Meet Our Team
           </h2>
         </div>
 

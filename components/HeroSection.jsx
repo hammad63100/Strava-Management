@@ -23,9 +23,9 @@ export default function HeroSection() {
             src={`${basePath}/images/herologo.png`}
             alt="Strava Management"
             style={{
-              height: "52px",
+              height: "76px",
               width: "auto",
-              maxHeight: "60px",
+              maxHeight: "88px",
               objectFit: "contain",
               display: "block",
             }}

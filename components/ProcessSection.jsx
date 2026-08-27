@@ -102,19 +102,19 @@ export default function ProcessSection() {
         />
         <div className="hidden lg:block lg:col-span-5 py-[30px] lg:py-0 text-left">
           <h2
-            className="h2 font-bold tracking-tight text-[32px] lg:text-[42px]"
-            style={{ color: "#5A2132", fontFamily: "var(--font-serif)" }}
+            className="h2 font-bold tracking-tight text-[32px] lg:text-[42px] uppercase"
+            style={{ color: "#5A2132", fontFamily: "var(--font-serif)", letterSpacing: "0.04em" }}
           >
-            THE PROCESS
+            The Process
           </h2>
           <p
-            className="normal-case text-[20px] lg:text-[24px] leading-relaxed mt-2 font-semibold"
+            className="normal-case text-[16px] lg:text-[18px] leading-[1.65] mt-2 font-medium"
             style={{ color: "#5A2132", opacity: 0.9 }}
           >
             A Disciplined Sequence, From Formation to Asset Value.
           </p>
           <p
-            className="normal-case text-[16px] lg:text-[18px] leading-relaxed mt-2 font-medium"
+            className="normal-case text-[15px] lg:text-[17px] leading-[1.65] mt-2 font-normal"
             style={{ color: "#5A2132", opacity: 0.85 }}
           >
             Six phases. Each answers a different question and sets up the next.
@@ -128,19 +128,19 @@ export default function ProcessSection() {
         style={{ backgroundColor: "#E6DEC8" }}
       >
         <h2
-          className="h2 font-bold text-[28px]"
-          style={{ color: "#5A2132", fontFamily: "var(--font-serif)" }}
+          className="h2 font-bold text-[28px] uppercase"
+          style={{ color: "#5A2132", fontFamily: "var(--font-serif)", letterSpacing: "0.04em" }}
         >
-          THE PROCESS
+          The Process
         </h2>
         <p
-          className="normal-case text-[16px] leading-relaxed mt-1 font-semibold"
+          className="normal-case text-[15px] leading-[1.65] mt-1 font-medium"
           style={{ color: "#5A2132", opacity: 0.9 }}
         >
           A Disciplined Sequence, From Formation to Asset Value.
         </p>
         <p
-          className="normal-case text-[14px] leading-relaxed mt-1 font-medium"
+          className="normal-case text-[13px] leading-[1.65] mt-1 font-normal"
           style={{ color: "#5A2132", opacity: 0.85 }}
         >
           Six phases. Each answers a different question and sets up the next.
@@ -172,8 +172,8 @@ export default function ProcessSection() {
               {/* Col 1: Phase Title */}
               <div className="flex flex-col lg:grid lg:col-span-3 lg:grid-cols-[29%_39%_29%] leading-[1.1] gap-1 lg:gap-[20px]">
                 <span
-                  className="h3 mb-4 font-bold text-[22px] lg:text-[26px]"
-                  style={{ color: "#5A2132", fontFamily: "var(--font-serif)" }}
+                  className="h3 mb-4 font-bold text-[20px] lg:text-[24px]"
+                  style={{ color: "#5A2132", fontFamily: "var(--font-sans)" }}
                 >
                   {phase.title}
                 </span>
@@ -182,13 +182,13 @@ export default function ProcessSection() {
               {/* Col 2: Question & Foundational Quote */}
               <div className="col-span-2 col-start-1 lg:col-start-2 lg:row-start-2 lg:col-span-1 flex flex-col justify-between gap-6 py-[15px] lg:py-0 lg:pr-[30px]">
                 <span
-                  className="h4 lg:py-0 font-semibold text-[19px] lg:text-[23px] leading-snug"
+                  className="h4 lg:py-0 font-semibold text-[18px] lg:text-[22px] leading-snug"
                   style={{ color: "#5A2132", fontFamily: "var(--font-serif)" }}
                 >
                   {phase.question}
                 </span>
                 <p
-                  className="text-[16px] lg:text-[19px] italic font-semibold leading-relaxed"
+                  className="text-[15px] lg:text-[17px] italic font-medium leading-[1.65]"
                   style={{ color: "#5A2132", opacity: 0.9 }}
                 >
                   {phase.summary}
@@ -197,7 +197,7 @@ export default function ProcessSection() {
 
               {/* Col 3: Bullet points */}
               <div
-                className="col-span-2 lg:col-start-3 lg:row-start-2 lg:col-span-1 normal-case lg:self-end text-[16px] lg:text-[18px] font-semibold"
+                className="col-span-2 lg:col-start-3 lg:row-start-2 lg:col-span-1 normal-case lg:self-end text-[15px] lg:text-[17px] font-medium"
                 style={{ color: "#5A2132", opacity: 0.95 }}
               >
                 <ul className="space-y-2 list-none">

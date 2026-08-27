@@ -2,7 +2,7 @@
   background-color: #E6DEC8;
   color: #5A2132;
   width: 100%;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-sans);
   min-height: 100vh;
 }
 
@@ -145,10 +145,10 @@
   color: #E6DEC8;
   font-size: 34px;
   font-weight: 900;
-  text-transform: uppercase;
-  line-height: 0.92;
+  line-height: 1.05;
   letter-spacing: -0.045em;
   margin-top: 6px;
+  text-transform: none;
 }
 
 @media (min-width: 640px) {
