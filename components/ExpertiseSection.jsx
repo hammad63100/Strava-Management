@@ -42,7 +42,10 @@ export default function ExpertiseSection() {
         {/* Card 1 */}
         <li
           className="relative px-[15px] py-[30px] md:px-[15px] lg:px-[25px] lg:py-[30px] rounded-[20px]"
-          style={{ minHeight: "350px", border: "1px solid rgba(230, 222, 200, 0.35)" }}
+          style={{
+            minHeight: "350px",
+            border: "1px solid rgba(230, 222, 200, 0.35)",
+          }}
         >
           <CardBorderSVG />
           <div className="relative z-10 flex flex-col h-full justify-center lg:justify-between text-center lg:text-left gap-4 lg:gap-0">
@@ -58,7 +61,10 @@ export default function ExpertiseSection() {
         {/* Card 2 */}
         <li
           className="relative px-[15px] py-[30px] md:px-[15px] lg:px-[25px] lg:py-[30px] rounded-[20px]"
-          style={{ minHeight: "350px", border: "1px solid rgba(230, 222, 200, 0.35)" }}
+          style={{
+            minHeight: "350px",
+            border: "1px solid rgba(230, 222, 200, 0.35)",
+          }}
         >
           <CardBorderSVG />
           <div className="relative z-10 flex flex-col h-full justify-center lg:justify-between text-center lg:text-left gap-4 lg:gap-0">
@@ -74,7 +80,10 @@ export default function ExpertiseSection() {
         {/* Card 3 */}
         <li
           className="relative px-[15px] py-[30px] md:px-[15px] lg:px-[25px] lg:py-[30px] rounded-[20px]"
-          style={{ minHeight: "350px", border: "1px solid rgba(230, 222, 200, 0.35)" }}
+          style={{
+            minHeight: "350px",
+            border: "1px solid rgba(230, 222, 200, 0.35)",
+          }}
         >
           <CardBorderSVG />
           <div className="relative z-10 flex flex-col h-full justify-center lg:justify-between text-center lg:text-left gap-4 lg:gap-0">
@@ -90,7 +99,10 @@ export default function ExpertiseSection() {
         {/* Card 4 */}
         <li
           className="relative px-[15px] py-[30px] md:px-[15px] lg:px-[25px] lg:py-[30px] rounded-[20px]"
-          style={{ minHeight: "350px", border: "1px solid rgba(230, 222, 200, 0.35)" }}
+          style={{
+            minHeight: "350px",
+            border: "1px solid rgba(230, 222, 200, 0.35)",
+          }}
         >
           <CardBorderSVG />
           <div className="relative z-10 flex flex-col h-full justify-center lg:justify-between text-center lg:text-left gap-4 lg:gap-0">
@@ -106,7 +118,10 @@ export default function ExpertiseSection() {
         {/* Card 5 */}
         <li
           className="relative px-[15px] py-[30px] md:px-[15px] lg:px-[25px] lg:py-[30px] rounded-[20px]"
-          style={{ minHeight: "350px", border: "1px solid rgba(230, 222, 200, 0.35)" }}
+          style={{
+            minHeight: "350px",
+            border: "1px solid rgba(230, 222, 200, 0.35)",
+          }}
         >
           <CardBorderSVG />
           <div className="relative z-10 flex flex-col h-full justify-center lg:justify-between text-center lg:text-left gap-4 lg:gap-0">
@@ -132,7 +147,10 @@ export default function ExpertiseSection() {
           Transparent Alignment
         </h2>
         <br />
-        <p className="normal-case text-[15px] lg:text-[16px] leading-relaxed opacity-90" style={{ color: "#E6DEC8" }}>
+        <p
+          className="normal-case text-[15px] lg:text-[16px] leading-relaxed opacity-90"
+          style={{ color: "#E6DEC8" }}
+        >
           Before an operating partnership begins, we establish the founder's
           objective, available capital, ownership horizon, risk tolerance, and
           expected level of involvement.

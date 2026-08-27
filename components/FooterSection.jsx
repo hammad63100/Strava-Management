@@ -111,13 +111,22 @@ export default function FooterSection() {
                 <p className="h6 font-bold" style={{ color: "#5A2132" }}>
                   New York
                 </p>
-                <p className="lg:col-span-3" style={{ color: "#5A2132", opacity: 0.9 }}>
+                <p
+                  className="lg:col-span-3"
+                  style={{ color: "#5A2132", opacity: 0.9 }}
+                >
                   100 Broadway, Manhattan
                 </p>
-                <p className="h6 font-bold mt-[15px] lg:mt-0" style={{ color: "#5A2132" }}>
+                <p
+                  className="h6 font-bold mt-[15px] lg:mt-0"
+                  style={{ color: "#5A2132" }}
+                >
                   London
                 </p>
-                <p className="lg:col-span-3" style={{ color: "#5A2132", opacity: 0.9 }}>
+                <p
+                  className="lg:col-span-3"
+                  style={{ color: "#5A2132", opacity: 0.9 }}
+                >
                   20 Fenchurch St, City of London
                 </p>
               </div>
@@ -175,7 +184,10 @@ export default function FooterSection() {
             STRAVA
           </text>
         </svg>
-        <div className="lg:flex lg:justify-between text-[10px]" style={{ color: "#5A2132", opacity: 0.85 }}>
+        <div
+          className="lg:flex lg:justify-between text-[10px]"
+          style={{ color: "#5A2132", opacity: 0.85 }}
+        >
           <p>
             {" "}
             ©2024{" "}

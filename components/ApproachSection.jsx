@@ -3,7 +3,10 @@ export default function ApproachSection() {
     <div style={{ color: "#E6DEC8" }}>
       <div
         className="border-b container h3 text-center grid gap-[10px] lg:gap-[25px] mt-20 lg:mt-[40px] mb-[25px] lg:mb-[35px] pb-[100px] px-[25px]"
-        style={{ borderBottomColor: "rgba(230, 222, 200, 0.35)", color: "#E6DEC8" }}
+        style={{
+          borderBottomColor: "rgba(230, 222, 200, 0.35)",
+          color: "#E6DEC8",
+        }}
       >
         <p className="uppercase text-[20px] lg:text-[22px] leading-relaxed font-medium">
           A Model Built on Alignment. <br className="hidden lg:block" />

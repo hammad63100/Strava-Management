@@ -21,10 +21,14 @@ export default function MainApp() {
   return (
     <>
       <ToggleSwitch />
-      
-      <div 
+
+      <div
         className="transition-opacity duration-700 ease-in-out"
-        style={{ opacity: activeView === "agency" ? 1 : 0, pointerEvents: activeView === "agency" ? "auto" : "none", display: activeView === "agency" ? "block" : "none" }}
+        style={{
+          opacity: activeView === "agency" ? 1 : 0,
+          pointerEvents: activeView === "agency" ? "auto" : "none",
+          display: activeView === "agency" ? "block" : "none",
+        }}
       >
         <div id="__nuxt">
           <div>
@@ -44,9 +48,13 @@ export default function MainApp() {
         </div>
       </div>
 
-      <div 
+      <div
         className="transition-opacity duration-700 ease-in-out"
-        style={{ opacity: activeView === "brands" ? 1 : 0, pointerEvents: activeView === "brands" ? "auto" : "none", display: activeView === "brands" ? "block" : "none" }}
+        style={{
+          opacity: activeView === "brands" ? 1 : 0,
+          pointerEvents: activeView === "brands" ? "auto" : "none",
+          display: activeView === "brands" ? "block" : "none",
+        }}
       >
         <BrandsSection />
       </div>

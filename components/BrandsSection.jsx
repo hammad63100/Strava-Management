@@ -58,7 +58,10 @@ export default function BrandsSection() {
   return (
     <div className="brands-section">
       {/* Top Header Section */}
-      <div className="brands-hero relative container" style={{ color: "#5A2132" }}>
+      <div
+        className="brands-hero relative container"
+        style={{ color: "#5A2132" }}
+      >
         {/* Top Header Container with Wordmark and SVG Corner Brackets matching Agency Hero */}
         <div className="absolute my-[15px] lg:my-[35px] inset-0 z-10 pointer-events-none">
           <div
@@ -162,7 +165,10 @@ export default function BrandsSection() {
             PORTFOLIO
           </h2>
 
-          <div className="lg:col-start-2 flex flex-col gap-4 font-bold" style={{ color: "#5A2132" }}>
+          <div
+            className="lg:col-start-2 flex flex-col gap-4 font-bold"
+            style={{ color: "#5A2132" }}
+          >
             <div>
               <p
                 className="uppercase text-[20px] lg:text-[26px] font-[900] leading-relaxed mb-5 text-justify"
