@@ -133,8 +133,9 @@ export default function SolutionsSection() {
         }
 
         .solution-card-heading {
+          font-family: var(--font-serif);
           font-size: 24px;
-          font-weight: 900;
+          font-weight: 800;
           text-transform: uppercase;
           line-height: 1.1;
           letter-spacing: -0.02em;
@@ -172,8 +173,8 @@ export default function SolutionsSection() {
 
         .solution-bullet-item {
           font-size: 15px;
-          font-weight: 700;
-          text-transform: uppercase;
+          font-weight: 500;
+          text-transform: none;
           line-height: 1.4;
           color: #E6DEC8;
           opacity: 0.92;
@@ -229,23 +230,23 @@ export default function SolutionsSection() {
           <div className="grid gap-[20px] lg:gap-x-[60px] lg:grid-cols-2 items-start">
             <h2
               className="h2 lg:col-start-1 uppercase font-bold text-[36px] sm:text-[46px] lg:text-[60px] leading-[0.95]"
-              style={{ color: "#E6DEC8" }}
+              style={{ color: "#E6DEC8", fontFamily: "var(--font-serif)" }}
             >
               SOLUTIONS
             </h2>
             <div className="lg:col-start-2 flex flex-col gap-6 lg:gap-8">
               <h3
                 className="uppercase font-bold text-[22px] sm:text-[26px] lg:text-[30px] leading-snug"
-                style={{ color: "#E6DEC8" }}
+                style={{ color: "#E6DEC8", fontFamily: "var(--font-serif)" }}
               >
                 ONE OPERATING PARTNER. EVERY STAGE OF THE BUSINESS.
               </h3>
               <p
-                className="uppercase font-bold text-[18px] lg:text-[20px] leading-relaxed opacity-90 text-justify"
+                className="normal-case font-medium text-[17px] lg:text-[19px] leading-relaxed opacity-90 text-justify"
                 style={{ color: "#E6DEC8" }}
               >
-                WE COORDINATE THE WORK FOUNDERS USUALLY PIECE TOGETHER THEMSELVES.
-                YOU KEEP OWNERSHIP. WE BRING THE STRUCTURE AND THE SPECIALISTS.
+                We coordinate the work founders usually piece together themselves.
+                You keep ownership. We bring the structure and the specialists.
               </p>
             </div>
           </div>
@@ -415,7 +416,7 @@ export default function SolutionsSection() {
             />
             <h4
               className="uppercase font-bold text-[20px] sm:text-[24px] lg:text-[28px] tracking-wide"
-              style={{ color: "#E6DEC8" }}
+              style={{ color: "#E6DEC8", fontFamily: "var(--font-serif)" }}
             >
               IMPORTANT SCOPE NOTE
             </h4>
@@ -424,12 +425,12 @@ export default function SolutionsSection() {
           {/* Bottom Right: Text Paragraph */}
           <div className="relative z-10 mt-auto pt-8 flex justify-end w-full">
             <p
-              className="uppercase text-[16px] sm:text-[18px] lg:text-[20px] font-bold leading-relaxed opacity-90 text-right max-w-[850px]"
+              className="normal-case text-[16px] sm:text-[18px] lg:text-[20px] font-medium leading-relaxed opacity-90 text-right max-w-[850px]"
               style={{ color: "#E6DEC8" }}
             >
-              WE'RE YOUR COORDINATION PARTNER. LEGAL, TAX, BANKING, AND OTHER
-              LICENSED WORK IS COMPLETED BY QUALIFIED SPECIALISTS AS PART OF THE
-              PLAN.
+              We're your coordination partner. Legal, tax, banking, and other
+              licensed work is completed by qualified specialists as part of the
+              plan.
             </p>
           </div>
         </div>

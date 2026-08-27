@@ -138,7 +138,7 @@ export default function HeroSection() {
       </div>
       <h2
         className="h2 text-center translate-y-[-50px] lg:translate-y-[0] max-w-[1200px] mx-auto leading-[0.95]"
-        style={{ color: "#E6DEC8" }}
+        style={{ color: "#E6DEC8", fontFamily: "var(--font-serif)" }}
       >
         We build Amazon <br /> businesses
         <br className="hidden sm:inline" /> the way <br /> private capital

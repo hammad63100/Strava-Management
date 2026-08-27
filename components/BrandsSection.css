@@ -22,6 +22,7 @@
 }
 
 .brands-headline {
+  font-family: var(--font-serif);
   color: #5A2132;
   font-size: 50px;
   font-weight: 900;
@@ -47,11 +48,11 @@
 
 .brands-mission p {
   color: #5A2132;
-  font-size: 14px;
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 1.375;
-  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: none;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
 }
 
 .brands-mission p+p {
@@ -81,7 +82,7 @@
   text-transform: uppercase;
   margin-bottom: 15px;
   letter-spacing: -0.05em;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-serif);
 }
 
 .brands-grid {
@@ -193,6 +194,7 @@
 }
 
 .portfolio-card-heading {
+  font-family: var(--font-serif);
   color: #E6DEC8;
   font-size: 34px;
   font-weight: 900;

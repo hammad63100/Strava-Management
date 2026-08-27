@@ -171,13 +171,13 @@ export default function BrandsSection() {
 
         <div className="brands-mission" style={{ color: "#5A2132" }}>
           <p style={{ color: "#5A2132" }}>
-            ESTABLISHING AGILE <br />
-            AND RESPONSIBLE BRANDS <br />
-            FOR LASTING SUCCESS.
+            Establishing agile <br />
+            and responsible brands <br />
+            for lasting success.
           </p>
           <p style={{ color: "#5A2132" }}>
-            ENERGIZING THEM CONSTANTLY <br />
-            TO FACE TODAY'S CHALLENGES.
+            Energizing them constantly <br />
+            to face today's challenges.
           </p>
         </div>
       </div>
@@ -188,7 +188,7 @@ export default function BrandsSection() {
         <div className="grid gap-[15px] lg:gap-x-[60px] lg:grid-cols-2 my-12 pb-8 border-b border-[#5A2132]/25">
           <h2
             className="h2 lg:col-start-1 text-left uppercase text-[46px] lg:text-[76px] xl:text-[88px] font-black tracking-tight leading-none"
-            style={{ color: "#5A2132" }}
+            style={{ color: "#5A2132", fontFamily: "var(--font-serif)" }}
           >
             PORTFOLIO
           </h2>
@@ -205,7 +205,7 @@ export default function BrandsSection() {
                 Select Operating Results.
               </p>
               <p
-                className="uppercase text-[16px] lg:text-[21px] font-[800] leading-relaxed mb-0 text-left opacity-90"
+                className="normal-case text-[16px] lg:text-[20px] font-medium leading-relaxed mb-0 text-left opacity-90"
                 style={{ color: "#5A2132" }}
               >
                 Presented as a deal sheet — verified numbers, brief context. We
@@ -263,7 +263,7 @@ export default function BrandsSection() {
                 </span>
               </div>
               <h3 className="portfolio-card-heading">Proof, Not Promises.</h3>
-              <p className="text-[17px] sm:text-[21px] lg:text-[25px] font-[900] uppercase text-[#E6DEC8]/85 mt-3 tracking-wide max-w-2xl leading-snug">
+              <p className="text-[17px] sm:text-[20px] lg:text-[22px] font-semibold normal-case text-[#E6DEC8]/90 mt-3 tracking-wide max-w-2xl leading-snug">
                 We only publish a result once every figure behind it is verified
                 — that discipline applies to this page too.
               </p>
@@ -334,7 +334,7 @@ export default function BrandsSection() {
               <h3 className="portfolio-card-heading">
                 Deal Sheet Architecture
               </h3>
-              <p className="text-[17px] sm:text-[21px] lg:text-[25px] font-[900] uppercase text-[#E6DEC8]/85 mt-3 tracking-wide max-w-2xl leading-snug">
+              <p className="text-[17px] sm:text-[20px] lg:text-[22px] font-semibold normal-case text-[#E6DEC8]/90 mt-3 tracking-wide max-w-2xl leading-snug">
                 Kept close to the original template, with one addition: a
                 founder-profile line to build authentic, relatable trust.
               </p>
@@ -402,7 +402,7 @@ export default function BrandsSection() {
               <h3 className="portfolio-card-heading">
                 What to Send Us Per Case Study
               </h3>
-              <p className="text-[17px] sm:text-[21px] lg:text-[25px] font-[900] uppercase text-[#E6DEC8]/85 mt-3 tracking-wide max-w-2xl leading-snug">
+              <p className="text-[17px] sm:text-[20px] lg:text-[22px] font-semibold normal-case text-[#E6DEC8]/90 mt-3 tracking-wide max-w-2xl leading-snug">
                 Strict audit checklist required before any commercial figure is
                 published to the deal sheet.
               </p>
@@ -484,7 +484,7 @@ export default function BrandsSection() {
               <h3 className="portfolio-card-heading">
                 Recommended Portfolio Metrics
               </h3>
-              <p className="text-[17px] sm:text-[21px] lg:text-[25px] font-[900] uppercase text-[#E6DEC8]/85 mt-3 tracking-wide max-w-2xl leading-snug">
+              <p className="text-[17px] sm:text-[20px] lg:text-[22px] font-semibold normal-case text-[#E6DEC8]/90 mt-3 tracking-wide max-w-2xl leading-snug">
                 Core commercial dimensions evaluated across verified brand
                 partnerships.
               </p>
@@ -506,7 +506,7 @@ export default function BrandsSection() {
               </div>
 
               <div className="mt-8 self-start lg:self-end">
-                <p className="text-[16px] sm:text-[19px] lg:text-[22px] font-[900] uppercase tracking-wide text-[#E6DEC8] m-0">
+                <p className="text-[16px] sm:text-[18px] lg:text-[20px] font-semibold normal-case tracking-wide text-[#E6DEC8] m-0">
                   Avoid unsupported averages, fabricated exits, or any figure
                   without a clear, checkable source.
                 </p>

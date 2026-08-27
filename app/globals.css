@@ -1,9 +1,10 @@
-/* Source: https://rblln.fr/_nuxt/default.f9753040.css */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,400;1,6..72,600;1,6..72,700&display=swap');
 
 /* Brand color & font overrides */
 :root {
   --orange: #5A2132 !important;
   --offwhite: #EFE9E9 !important;
+  --font-serif: 'Newsreader', 'Libre Caslon Display', 'Playfair Display', Georgia, serif;
   --font-sans: 'Neue Haas Grotesk Display Pro', 'Neue Haas Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -16,9 +17,22 @@ button,
 input,
 select,
 textarea {
-  font-family: 'Neue Haas Grotesk Display Pro', 'Neue Haas Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
-  letter-spacing: 0.01em !important;
-  word-spacing: 0.02em !important;
+  font-family: var(--font-sans);
+  letter-spacing: 0.01em;
+  word-spacing: 0.02em;
+}
+
+h1,
+h2,
+h3,
+h4,
+.h1,
+.h2,
+.h3,
+.h4,
+.font-serif,
+.serif-heading {
+  font-family: var(--font-serif) !important;
 }
 
 .dark,
@@ -1565,11 +1579,11 @@ video {
 body {
   background: var(--offwhite);
   color: var(--dark);
-  font-family: 'Neue Haas Grotesk Display Pro', 'Neue Haas Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  font-family: var(--font-sans);
   font-size: 13px;
   letter-spacing: -.01em;
   line-height: 1.3;
-  text-transform: uppercase
+  text-transform: none;
 }
 
 .container {

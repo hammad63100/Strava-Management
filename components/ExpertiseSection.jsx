@@ -33,7 +33,10 @@ export default function ExpertiseSection() {
   return (
     <div className="Expertises" style={{ color: "#E6DEC8" }}>
       <div className="container mt-[50px] mb-[20px]">
-        <h2 className="h2 text-center" style={{ color: "#E6DEC8" }}>
+        <h2
+          className="h2 text-center"
+          style={{ color: "#E6DEC8", fontFamily: "var(--font-serif)" }}
+        >
           The Vendor and Partner Gap
         </h2>
       </div>
@@ -139,11 +142,17 @@ export default function ExpertiseSection() {
         className="container mt-12 text-center max-w-[800px] mx-auto"
         style={{ paddingBottom: "80px", color: "#E6DEC8" }}
       >
-        <h3 className="h3 mb-16" style={{ color: "#E6DEC8" }}>
+        <h3
+          className="h3 mb-16"
+          style={{ color: "#E6DEC8", fontFamily: "var(--font-serif)" }}
+        >
           We would rather build fewer assets well.
         </h3>
         <br />
-        <h2 className="h2 mb-6" style={{ color: "#E6DEC8" }}>
+        <h2
+          className="h2 mb-6"
+          style={{ color: "#E6DEC8", fontFamily: "var(--font-serif)" }}
+        >
           Transparent Alignment
         </h2>
         <br />

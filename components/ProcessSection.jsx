@@ -103,7 +103,7 @@ export default function ProcessSection() {
         <div className="hidden lg:block lg:col-span-5 py-[30px] lg:py-0 text-left">
           <h2
             className="h2 font-bold tracking-tight text-[32px] lg:text-[42px]"
-            style={{ color: "#5A2132" }}
+            style={{ color: "#5A2132", fontFamily: "var(--font-serif)" }}
           >
             THE PROCESS
           </h2>
@@ -127,7 +127,10 @@ export default function ProcessSection() {
         className="mt-[20px] sticky top-0 lg:hidden py-[20px] text-center z-20 px-4"
         style={{ backgroundColor: "#E6DEC8" }}
       >
-        <h2 className="h2 font-bold text-[28px]" style={{ color: "#5A2132" }}>
+        <h2
+          className="h2 font-bold text-[28px]"
+          style={{ color: "#5A2132", fontFamily: "var(--font-serif)" }}
+        >
           THE PROCESS
         </h2>
         <p
@@ -170,7 +173,7 @@ export default function ProcessSection() {
               <div className="flex flex-col lg:grid lg:col-span-3 lg:grid-cols-[29%_39%_29%] leading-[1.1] gap-1 lg:gap-[20px]">
                 <span
                   className="h3 mb-4 font-bold text-[22px] lg:text-[26px]"
-                  style={{ color: "#5A2132" }}
+                  style={{ color: "#5A2132", fontFamily: "var(--font-serif)" }}
                 >
                   {phase.title}
                 </span>
@@ -180,7 +183,7 @@ export default function ProcessSection() {
               <div className="col-span-2 col-start-1 lg:col-start-2 lg:row-start-2 lg:col-span-1 flex flex-col justify-between gap-6 py-[15px] lg:py-0 lg:pr-[30px]">
                 <span
                   className="h4 lg:py-0 font-semibold text-[19px] lg:text-[23px] leading-snug"
-                  style={{ color: "#5A2132" }}
+                  style={{ color: "#5A2132", fontFamily: "var(--font-serif)" }}
                 >
                   {phase.question}
                 </span>
@@ -194,7 +197,7 @@ export default function ProcessSection() {
 
               {/* Col 3: Bullet points */}
               <div
-                className="col-span-2 lg:col-start-3 lg:row-start-2 lg:col-span-1 uppercase lg:self-end text-[16px] lg:text-[18px] font-bold"
+                className="col-span-2 lg:col-start-3 lg:row-start-2 lg:col-span-1 normal-case lg:self-end text-[16px] lg:text-[18px] font-semibold"
                 style={{ color: "#5A2132", opacity: 0.95 }}
               >
                 <ul className="space-y-2 list-none">
